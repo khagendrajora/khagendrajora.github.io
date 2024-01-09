@@ -11,7 +11,7 @@ const PersonalDetails = () => {
             <div className='title'>Personal Details</div>
             <div className="container">
                 <div className="Left">
-                    <img src="Assets/Khagendra Singh .jpg" alt="khagendra" />
+                    <img src="Assets/kj.jpg" alt="khagendra" style={{ height: "20rem", width: "15rem" }} />
                 </div>
                 <div className="Right">
                     <div>
