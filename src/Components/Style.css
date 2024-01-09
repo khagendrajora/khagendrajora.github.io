@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Montserrat:wght@100&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@400;800&family=Sora:wght@100&family=Tai+Heritage+Pro:wght@700&display=swap');
+
+nav {
+    background-color: rgb(185, 211, 234);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+    color: black;
+
+
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.image img {
+    max-width: 100%;
+    height: 30rem;
+    position: relative;
+}
+
+.image .info {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    font-family: 'Poppins' sans-serif;
+}
+
+.image .info h1 {
+    font-size: medium;
+}
+
+.image .info .span {
+    font-weight: 300;
+}
+
+
+/* Personal Details */
+.title {
+    padding: 3rem;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .Left {
+    padding: 2rem;
+
+}
+
+.container .Left img {
+    border-radius: 50%;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .Right {
+    width: 30rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.container .Right .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+
+#btn {
+    background-color: rgb(63, 63, 238);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: larger;
+    border-radius: 2rem;
+    font-weight: 600;
+    border: none;
+}
+
+#btn:hover {
+    background-color: rgb(217, 217, 223);
+
+}
+
+.Experiences {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+
+}
+
+.programmingLanguages {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.programmingLanguages span {
+    margin-top: 2rem;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workshops {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.file {
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+.file:hover {
+    transform: scale(1.2);
+    color: blue;
+    font-style: oblique;
+
+}
+
+
+/* footer */
+footer {
+
+    background-color: rgb(79, 142, 244);
+    padding: 3rem;
+    margin-top: 4rem;
+
+
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.FontAwesomeIcon {
+    color: black;
+}
