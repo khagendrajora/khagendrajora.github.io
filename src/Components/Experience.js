@@ -1,4 +1,4 @@
-import { hover } from '@testing-library/user-event/dist/hover'
+
 import React from 'react'
 
 
@@ -21,16 +21,34 @@ export const Experience = () => {
                     <div className='title'>Skills</div>
 
                     <div className='programmingLanguages'>
-                        <span>C</span>
-                        <span>C++</span>
+                        <div className='icon'><img src='/Assets/letter-c.png' /></div>
+                        <div className='icon'><img src='/Assets/c-.png' /></div>
+                        <div className='icon'><img src='/Assets/java-script.png' /></div>
+
                     </div>
                     <hr />
                     <div className='programmingLanguages'>
-                        <span>MERN</span>
+                        <div className='icon'><img src='/Assets/html-5.png' /></div>
+                        <div className='icon'><img src='/Assets/css-3.png' /></div>
+                        <div className='icon'><img src='/Assets/bootstrap.png' /></div>
+                        <div className='icon'><img src='/Assets/tailwind.png' /></div>
+
+                    </div>
+                    <hr />
+                    <div className='programmingLanguages'>
+                        <div className='icon'><img src='/Assets/react.png' /></div>
+                        <div className='icon'><img src='/Assets/express-js.png' /></div>
+                        <div className='icon'><img src='/Assets/nodejs.png' /></div>
                     </div>
                     <hr />
                     <div className='programmingLanguages' >
-                        <span>GIT</span>
+                        <div className='icon'><img src='/Assets/mdb.png' /></div>
+
+                    </div>
+                    <hr />
+                    <div className='programmingLanguages' >
+
+                        <div className='icon'><img src='/Assets/github.png' /></div>
                     </div>
                     <hr />
                 </div>

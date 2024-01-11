@@ -4,6 +4,7 @@ import { Layouts } from './Components/Layouts'
 import { HomePage } from './Pages/HomePage'
 
 
+
 const MyRoute = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const MyRoute = () => {
                 <Routes>
                     <Route path='' element={<Layouts />}>
                         <Route index element={<HomePage />} />
+                        {/* <Route path='/footer' element={<Footer />} /> */}
 
                     </Route>
                 </Routes>

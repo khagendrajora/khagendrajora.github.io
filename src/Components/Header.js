@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { useEffect, useState } from 'react'
+
 import Typed from 'typed.js'
 
 
@@ -9,12 +10,32 @@ import Typed from 'typed.js'
 export const Header = () => {
     const [elementText, setElementText] = useState('')
     const windowSize = useRef(window.innerWidth)
+
+    const Footers = () => {
+        const contacts = document.getElementById('footer')
+        if (contacts) {
+            window.scrollTo({
+                top: contacts.offsetTop,
+                behavior: 'smooth'
+            })
+        }
+    }
     useEffect(() => {
+        const strings = ['Computer Engineer', 'Web Developer', 'Programmer']
         var typed = new Typed('#element', {
-            strings: ['Computer Engineer', 'Web Developer', 'Programmer'],
-            typeSpeed: 1
+            strings,
+            typeSpeed: 0.1,
+            onComplete: function () {
+                setElementText(typed.strings[0])
+                setTimeout(() => {
+                    typed.reset();
+                    typed.start();
+                }, 2000)
+
+            }
         })
-        setElementText(typed.strings[0])
+
+
     })
     return (
         <>
@@ -27,9 +48,9 @@ export const Header = () => {
                                 Khagendra Singh Jora
                             </ul>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Me</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li className="menu">Home</li>
+                                <li className="menu">About Me</li>
+                                <li className="menu" onClick={Footers}>Contact</li>
 
                             </ul>
                         </>
