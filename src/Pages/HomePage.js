@@ -9,10 +9,6 @@ export const HomePage = () => {
         <>
             <PersonalDetails />
             <Experience />
-
-
-
-
         </>
     )
 }

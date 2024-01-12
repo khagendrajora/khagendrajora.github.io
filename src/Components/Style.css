@@ -3,9 +3,14 @@
 nav {
     background-color: rgb(185, 211, 234);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 5rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+
+
 }
 
 nav ul li {
@@ -18,25 +23,86 @@ nav ul {
 }
 
 @media only screen and (max-width:576px) {
-    .image img {
-        width: 100% !important;
-        height: 30rem !important;
-        position: relative !important;
-        background-color: red;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        background-color: rgb(185, 211, 234);
+        align-items: center;
+        height: 5rem;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        z-index: 99;
+        display: flex;
+        opacity: 0;
+        transition: opacity 1s linear;
+        justify-content: end;
+        margin-top: 5rem;
+        width: 18rem;
+
+    }
+
+    .mobile-menu.visible {
+        opacity: 1;
+    }
+
+    .nav-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        background-color: aliceblue;
+        border-bottom-right-radius: 15rem;
+
+    }
+
+    .nav-elements li {
+        padding-left: 2rem;
+        padding: 1rem;
+
+    }
+
+    .menu {
+        max-width: fit-content;
+
+    }
+
+    .close {
+        position: absolute;
+        right: 0.5rem !important;
+        top: 0.5rem !important;
+        width: 3rem;
+        height: 2rem;
+        color: rgb(236, 120, 120);
+
 
     }
 }
 
+@media only screen and (max-width:576px) {
+    .image img {
+        width: 100% !important;
+        height: 20rem !important;
+        position: relative !important;
 
-.Experiences {
-    background-color: rebeccapurple;
+
+    }
 }
 
-
-
 .image img {
-    max-width: 100%;
-    height: 50rem;
+    width: 100%;
+    height: 40rem;
     position: relative;
 
 }
@@ -47,12 +113,36 @@ nav ul {
     display: flex;
     flex-direction: column;
     left: 10%;
+    font-size: x-large;
     font-family: 'Poppins' sans-serif;
 }
 
-.image .info h1 {
-    font-size: medium;
+@media screen and (max-width: 450px) and (min-height:800px) {
+
+    .image .info {
+        position: absolute;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+
+        left: 10%;
+        font-family: 'Poppins' sans-serif;
+    }
 }
+
+@media screen and (max-width: 576px) {
+    .image .info {
+        font-size: small;
+        top: 20%;
+    }
+
+    .image .info h1 {
+        font-size: small;
+
+    }
+}
+
+
 
 .image .info .span {
     font-weight: 300;
@@ -85,6 +175,12 @@ nav ul {
     object-fit: cover;
     object-position: 40% 2%;
 
+}
+
+.menuIcon {
+    border-width: 2rem;
+    border-color: black;
+    height: 2rem;
 }
 
 img {

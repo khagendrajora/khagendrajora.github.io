@@ -8,6 +8,7 @@ const PersonalDetails = () => {
 
     return (
         <>
+            <div id='personalDetail'></div>
             <div className='title'>Personal Details</div>
             <div className="container">
                 <div className="Left">

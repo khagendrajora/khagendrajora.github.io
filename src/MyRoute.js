@@ -12,7 +12,7 @@ const MyRoute = () => {
                 <Routes>
                     <Route path='' element={<Layouts />}>
                         <Route index element={<HomePage />} />
-                        {/* <Route path='/footer' element={<Footer />} /> */}
+
 
                     </Route>
                 </Routes>
