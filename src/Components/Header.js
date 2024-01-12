@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import React, { useRef } from 'react'
 import { useEffect, useState } from 'react'
 import Typed from 'typed.js'
@@ -34,6 +34,15 @@ export const Header = () => {
             })
         }
     }
+    const Projects = () => {
+        const project = document.getElementById('project')
+        if (project) {
+            window.scrollTo({
+                top: project.offsetTop,
+                behavior: 'smooth'
+            })
+        }
+    }
     useEffect(() => {
         const strings = ['Computer Engineer', 'Web Developer', 'Programmer']
         var typed = new Typed('#element', {
@@ -50,7 +59,6 @@ export const Header = () => {
                     <>
                         <nav>
                             {/* <h1> Khagendra Singh Jora</h1> */}
-
                             <ul>
                                 Khagendra Singh Jora
                             </ul>
@@ -58,6 +66,7 @@ export const Header = () => {
                                 <li className="menu">Home</li>
                                 <li className="menu" onClick={PersonlDetails}>About Me</li>
                                 <li className="menu" onClick={Footers}>Contact</li>
+                                <li className='menu' onClick={Projects}>Projects</li>
                             </ul>
                         </nav>
                     </>
@@ -65,19 +74,21 @@ export const Header = () => {
                 {windowSize.current < 576 &&
                     <>
                         <div className='nav'>
-                            <ul>
+                            <ul className='name'>
                                 Khagendra Singh Jora
+
                             </ul>
                             <FontAwesomeIcon icon={faBars} className='menuIcon' onClick={menuClickHandler} />
                         </div>
 
                         <div className={showMenu ? "nav-item mobile-menu visible" : "mobile-menu nav-item"}>
                             <ul className='nav-elements'>
-                                <li className="menu">Home</li><hr />
-                                <li className="menu" onClick={PersonlDetails}>About Me</li><hr />
+                                <li className="menu">Home</li>
+                                <li className="menu" onClick={PersonlDetails}>About Me</li>
                                 <li className="menu" onClick={Footers}>Contact</li>
+                                <li className='menu' onClick={Projects}>Projects</li>
                             </ul>
-                            <FontAwesomeIcon icon={faCircleXmark} className='close' onClick={menuClickHandler} />
+                            <FontAwesomeIcon icon={faXmark} className='close' onClick={menuClickHandler} />
                         </div>
                     </>
                 }

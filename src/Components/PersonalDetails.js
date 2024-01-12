@@ -15,31 +15,8 @@ const PersonalDetails = () => {
                     <img src="Assets/kj.jpg" alt="khagendra" style={{ height: "20rem", width: "15rem" }} />
                 </div>
                 <div className="Right">
-                    <div>
-                        <div className="info">
-                            <p>
-                                Name:</p>
-                            <span>Khagendra Singh Jora</span>
-                        </div>
-                        <hr />
-                        <div className="info">
-                            <p>
-                                Education:</p>
-                            <span>Bachlor in Computer Engineering</span>
-                        </div>
-                        <hr />
-                        <div className="info">
-                            <p>
-                                Address:</p>
-                            <span>Kathmandu, Nepal</span>
-                        </div>
-                        <hr />
-                        <div className="info">
-                            <p>Date of Birth:</p>
-                            <span>08/10/2000</span>
-                        </div>
-                        <hr />
-                    </div>
+                    I am a self-motivated and tech enthusiastic person. Always ready to face chalanges.
+                    Have a good experience in developer field. Eagger to learn data science.
                     <button id='btn' onClick={Resume}>My Resume</button>
                 </div>
             </div>
