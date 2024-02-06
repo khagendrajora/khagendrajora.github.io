@@ -11,6 +11,10 @@ export const Experience = () => {
         const file = 'Assets/dursikshya.jpg'
         window.open(file, '_blank')
     }
+    const Techfest = () => {
+        const file = 'Assets/Khagendra.png'
+        window.open(file, '_blank')
+    }
     const Docker = () => {
 
     }
@@ -59,6 +63,7 @@ export const Experience = () => {
                         <div className='file' onClick={HEX}>HEx Genius HACKATHON</div><hr />
                         <div className='file' onClick={Dursikshya}>In-House Project Competition</div><hr />
                         <div className='file' onClick={Docker}>3-day Workshop on Docker</div><hr />
+                        <div className='file' onClick={Techfest}>Participation in IIT Techfest Bombay</div><hr />
                     </div>
 
                 </div>
