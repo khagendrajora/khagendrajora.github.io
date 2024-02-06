@@ -45,7 +45,7 @@ export const Header = () => {
     }
     useEffect(() => {
         const strings = ['Computer Engineer', 'Web Developer', 'Programmer']
-        var typed = new Typed('#element', {
+        new Typed('#element', {
             strings,
             typeSpeed: 0.1
 
@@ -58,7 +58,7 @@ export const Header = () => {
                 {windowSize.current > 576 &&
                     <>
                         <nav>
-                            {/* <h1> Khagendra Singh Jora</h1> */}
+
                             <ul>
                                 Khagendra Singh Jora
                             </ul>
@@ -99,7 +99,7 @@ export const Header = () => {
 
                         <h1>Hi I am Khagendra Singh Jora</h1>
                         <p>I am a <span id="element">{elementText}</span> </p>
-                        {/* <!-- Element to contain animated typing --> */}
+
 
                     </div>
                 </div>

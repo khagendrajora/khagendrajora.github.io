@@ -12,7 +12,7 @@ const PersonalDetails = () => {
             <div className='title'>Personal Details</div>
             <div className="container">
                 <div className="Left">
-                    <img src="Assets/kj.jpg" alt="khagendra" style={{ height: "20rem", width: "15rem" }} />
+                    <img src="Assets/kj.jpg" alt="khagendra" style={{ height: "15rem", width: "15rem" }} />
                 </div>
                 <div className="Right">
                     I am a self-motivated and tech enthusiastic person. Always ready to face chalanges.
