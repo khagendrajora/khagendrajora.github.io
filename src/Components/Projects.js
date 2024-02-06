@@ -30,7 +30,7 @@ const Projects = () => {
                             <div className='projectTitle'>Community connect application using ML</div>
                         </div>
                         <p>An online platform where community people can intract on the issues of the society and provide suggestions on it. This application contains the ML part which detects the bad words and probhabits the user to use it. </p>
-                        <div className='button-container'><button className='btn'><a href='/'>Live Demo</a></button></div>
+                        <div className='button-container'><button className='btn'><a href='https://github.com/khagendrajora/Tech_Army'>Git Repo</a></button></div>
                     </div>
                 </div>
             </div>
