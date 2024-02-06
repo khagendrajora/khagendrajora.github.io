@@ -50,7 +50,8 @@ export const Header = () => {
             typeSpeed: 0.1
 
         })
-    })
+        setElementText(strings)
+    }, [])
     return (
         <>
             <header>
