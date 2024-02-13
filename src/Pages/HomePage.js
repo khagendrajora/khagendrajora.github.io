@@ -3,6 +3,7 @@ import PersonalDetails from '../Components/PersonalDetails'
 import '../Components/Style.css'
 import { Experience } from '../Components/Experience'
 import Projects from '../Components/Projects'
+import ContactMe from '../Components/ContactMe'
 
 
 export const HomePage = () => {
@@ -11,6 +12,7 @@ export const HomePage = () => {
             <PersonalDetails />
             <Experience />
             <Projects />
+            <ContactMe />
         </>
     )
 }

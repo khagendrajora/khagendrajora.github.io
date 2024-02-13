@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonalDetails = () => {
     const Resume = () => {
-        const file = '/Assets/Khagendra_Singh Jora_Resume_18-10-2023-20-14-50.pdf'
+        const file = '/Assets/Khagendra-Singh-Jora-Resume-20240207.pdf'
         window.open(file, 'blank')
     }
 
@@ -12,7 +12,7 @@ const PersonalDetails = () => {
             <div className='title'>Personal Details</div>
             <div className="container">
                 <div className="Left">
-                    <img src="Assets/kj.jpg" alt="khagendra" style={{ height: "15rem", width: "15rem" }} />
+                    <img src="Assets/kj.jpg" alt="khagendra" style={{ width: "20rem" }} />
                 </div>
                 <div className="Right">
                     I am a self-motivated and tech enthusiastic person. Always ready to face chalanges.

@@ -13,7 +13,6 @@ const MyRoute = () => {
                     <Route path='' element={<Layouts />}>
                         <Route index element={<HomePage />} />
 
-
                     </Route>
                 </Routes>
             </Router>
