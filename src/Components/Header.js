@@ -29,8 +29,8 @@ export const Header = () => {
         }
     }
 
-    const Footers = () => {
-        const contacts = document.getElementById('footer')
+    const ContactMe = () => {
+        const contacts = document.getElementById('contactme')
         if (contacts) {
             window.scrollTo({
                 top: contacts.offsetTop,
@@ -70,7 +70,7 @@ export const Header = () => {
                             <ul>
                                 <li className="menu">Home</li>
                                 <li className="menu" onClick={PersonlDetails}>About Me</li>
-                                <li className="menu" onClick={Footers}>Contact</li>
+                                <li className="menu" onClick={ContactMe}>Contact</li>
                                 <li className='menu' onClick={Projects}>Projects</li>
 
                             </ul>
@@ -107,7 +107,7 @@ export const Header = () => {
                             <ul className='nav-elements'>
                                 <li className="menu">Home</li>
                                 <li className="menu" onClick={PersonlDetails}>About Me</li>
-                                <li className="menu" onClick={Footers}>Contact</li>
+                                <li className="menu" onClick={ContactMe}>Contact</li>
                                 <li className='menu' onClick={Projects}>Projects</li>
                             </ul>
                             <FontAwesomeIcon icon={faXmark} className='close' onClick={menuClickHandler} />
