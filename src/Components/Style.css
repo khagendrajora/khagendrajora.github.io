@@ -271,12 +271,18 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-image: url("../../public/Assets/icons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 0 0 0;
+
 }
 
 .contactme .left form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 0 2rem 0;
 
 
 }
@@ -286,6 +292,13 @@ img {
     border-radius: 2rem;
     padding: 1rem;
     margin-bottom: 2rem;
+    background-color: #ebf3f5;
+
+    /* font-size: large; */
+}
+
+.contactme .left form textarea {
+
     background-color: #ebf3f5;
 
     /* font-size: large; */

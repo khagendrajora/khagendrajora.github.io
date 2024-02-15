@@ -13,7 +13,7 @@ const ContactMe = () => {
                         Contact Me
                     </div>
                     <form>
-                        <input type='text' name='name' id='name' className='form-control' placeholder=' Name' />
+                        <input type='text' name='name' id='name' className='form-control' placeholder=' Name' size='40' />
                         <input type='email' name='email' id='email' className='form-control' placeholder='&#xf0e0; Email' style={{ fontFamily: 'FontAwesome' }} />
                         <input type='number' name='phone' id='phone' className='form-control' placeholder='&#xf007; Phone' style={{ fontFamily: 'FontAwesome' }} />
                         <textarea name='message' rows='5' cols='2' id='message' className='form-control' placeholder='&#xf007; Message' style={{ fontFamily: 'FontAwesome', borderRadius: '1rem', resize: 'none', padding: '1rem', marginBottom: '2rem' }} />
