@@ -53,6 +53,12 @@ nav ul {
     font-family: 'Poppins' sans-serif;
 }
 
+.image .info #element {
+    color: #0078d0;
+    font-weight: bold;
+    font-style: italic;
+}
+
 /* Personal Details */
 .title {
     padding: 3rem;
