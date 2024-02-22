@@ -60,14 +60,25 @@ export const Experience = () => {
                 <div className="certificates">
                     <div className='title'>Experience</div>
                     <div className='workshops'>
-                        <div className='file' onClick={HEX}>HEx Genius HACKATHON</div><hr />
-                        <div className='file' onClick={Dursikshya}>In-House Project Competition</div><hr />
-                        <div className='file' onClick={Docker}>3-day Workshop on Docker</div><hr />
-                        <div className='file' onClick={Techfest}>Participation in IIT Techfest Bombay</div><hr />
+
+                        <div className='certificate-one'>
+                            <h1 className='one'>1.</h1>
+                            <div className='file' onClick={HEX}><span>HEx Genius HACKATHON</span></div>
+                        </div>
+                        <div className='certificate-one'>
+                            <h1 className='one'>2.</h1>
+                            <div className='file' onClick={Dursikshya}><span>In-House Project Competition</span></div>
+                        </div>
+                        <div className='certificate-one'>
+                            <h1 className='one'>3.</h1>
+                            <div className='file' onClick={Docker}><span>3-day Workshop on Docker</span></div>
+                        </div>
+                        <div className='certificate-one'>
+                            <h1 className='one'>4.</h1>
+                            <div className='file' onClick={Techfest}><span>Participation in IIT Techfest Bombay</span></div>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
 
         </>
