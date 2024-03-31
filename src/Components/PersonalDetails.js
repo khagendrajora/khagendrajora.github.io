@@ -9,7 +9,7 @@ const PersonalDetails = () => {
     return (
         <>
             <div id='personalDetail'></div>
-            <div className='title'>Personal Details</div>
+            <div className='title'>Personal Detail</div>
             <div className="container">
                 <div className="Left">
                     <img src="Assets/kj.jpg" alt="khagendra" style={{ width: "20rem" }} />
