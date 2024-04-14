@@ -16,7 +16,7 @@ const PersonalDetails = () => {
                 </div>
                 <div className="Right">
                     I believe myself as a self-motivated and tech enthusiastic person. Always ready to face challenges.
-                    Have a good experience in developer field. Eagger to learn data science.
+                    Have a good experience in developer field. Eager to learn data.
                     <button id='btn' onClick={Resume}>My Resume</button>
                 </div>
             </div>
