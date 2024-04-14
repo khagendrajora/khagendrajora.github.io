@@ -8,6 +8,7 @@ const ContactMe = () => {
     return (
         <>
             <div className='contactme' id='contactme'>
+
                 <div className='left'>
                     <div className='title'>
                         Contact Me
@@ -28,6 +29,8 @@ const ContactMe = () => {
                         <Link to=''>
                             <FontAwesomeIcon icon={faInstagram} className='links' style={{ color: 'red' }} /></Link>
                     </div>
+                    <br />
+                    <br />
                     <div className='social-links'>
                         <Link to='https://www.linkedin.com/in/khagendra-singh-jora-7a8808182/'>
                             <FontAwesomeIcon icon={faLinkedinIn} className='links' style={{ color: 'blue' }} /></Link>
