@@ -245,13 +245,15 @@ img {
 .works {
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding: 2rem;
 }
 
 .app {
 
-    width: 30%;
+    width: 400px;
     padding: 1rem 1rem 0 1rem;
     box-shadow: 3px 3px rgb(72, 74, 64);
     border-radius: 1rem;
@@ -302,6 +304,7 @@ img {
     display: flex;
     justify-content: flex-start;
     margin-top: 1rem;
+    align-self: self-end;
 }
 
 

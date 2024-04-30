@@ -5,15 +5,22 @@ const Projects = () => {
         <>
             <div className='projects' id='project'>
                 <div className='title'>Projects</div>
-                <p>Most of my projects are web based.</p>
                 <br />
                 <div className='works'>
+                    <div className='app'>
+                        <div className='innerapp'>
+                            <div className='icon'><img src='/Assets/mern.jpeg' alt='mern' /></div>
+                            <div className='projectTitle'>Online Restaurant</div>
+                        </div>
+                        <p>This is a full stack application. Technologies used are <b>React</b> for frontend, <b>Express js </b>, <b>Node.js</b> for backend and <b>MongoDb</b> for database</p>
+                        <div className='button-container'><button className='btn'><a href='https://github.com/khagendrajora/Online-Restaurant'>Git Repo</a></button></div>
+                    </div>
                     <div className='app'>
                         <div className='innerapp'>
                             <div className='icon'><img src='/Assets/react.png' alt='react' /></div>
                             <div className='projectTitle'>Ecommerce Application using React</div>
                         </div>
-                        <p>This is a full stack  ecommerce application made on react and nodejs and used mongodb for database.</p>
+                        <p>This is a full stack  ecommerce application made on <b>React</b> by using AFI data of facestore API.</p>
                         <div className='button-container'><button className='btn'><a href='https://khagendraecommerceapp.netlify.app/'>Live Demo</a></button></div>
                     </div>
                     <div className='app'>
