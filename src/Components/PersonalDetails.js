@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonalDetails = () => {
     const Resume = () => {
-        const file = '/Assets/r.pdf'
+        const file = '/Assets/Resume.pdf'
         window.open(file, 'blank')
     }
 
