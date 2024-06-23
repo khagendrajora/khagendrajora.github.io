@@ -13,7 +13,6 @@ export const Header = () => {
         setShowMenu(!showMenu)
 
     }
-
     const PersonlDetails = () => {
         const PersonlDetails = document.getElementById('personalDetail')
         if (PersonlDetails) {
