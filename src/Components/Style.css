@@ -140,8 +140,6 @@ img {
 
 }
 
-
-
 /* Experiences */
 
 .Experiences {
@@ -158,8 +156,6 @@ img {
     flex-direction: column;
     justify-content: center;
     width: 18rem;
-
-
 }
 
 .cProgramming {
