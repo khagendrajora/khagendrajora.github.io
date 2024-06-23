@@ -22,6 +22,10 @@ nav ul li {
     cursor: pointer;
 }
 
+nav ul li:hover {
+    color: gray;
+}
+
 nav ul {
     display: flex;
 }
@@ -317,10 +321,12 @@ img {
     justify-content: space-evenly;
     background-image: url("../../public/Assets/icons.jpg");
     width: 100%;
+    height: auto;
 
     background-repeat: no-repeat;
-    background-size: auto 600px;
+    background-size: cover;
     margin: 2rem 0 0 0;
+    object-fit: cover;
 
 }
 
@@ -483,6 +489,10 @@ footer {
 
     }
 
+    .menu:hover {
+        color: gray;
+    }
+
     .menuIcon {
         margin-left: 1rem;
         cursor: pointer;
@@ -638,7 +648,7 @@ footer {
     }
 
     .contactme .right .social-links .links {
-        height: 2rem;
+        height: 1rem;
         margin: 0 0 0 0;
         cursor: pointer;
     }
@@ -678,9 +688,17 @@ footer {
     }
 
     .contactme .right {
+        display: flex;
+        flex-direction: row;
 
         margin: 2rem 0 0 0;
 
+    }
+
+    .contactme .right .social-links .links {
+        height: 2rem;
+        margin: 0 0 0 0;
+        cursor: pointer;
     }
 
     .projects {
