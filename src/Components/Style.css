@@ -98,12 +98,19 @@ img {
 }
 
 .container .Right {
-    width: 30rem;
+    width: 35rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+
+
+    margin: 2rem 0 0 0;
+    align-items: center;
+    font-size: large;
+    font-style: italic;
+    line-height: 3rem;
 }
 
 .container .Right .info {
@@ -116,7 +123,7 @@ img {
 
 #btn {
     background-color: #0078d0;
-    padding: 0.5rem;
+    padding: 1rem;
     color: #fff;
     margin-top: 4rem;
     font-size: larger;
@@ -152,6 +159,71 @@ img {
     justify-content: center;
     width: 18rem;
 
+
+}
+
+.cProgramming {
+    background-color: #38bdf8 !important;
+
+}
+
+.oop {
+    background-color: #0284c7 !important;
+
+}
+
+.js {
+    background-color: #facc15 !important;
+
+}
+
+.ts {
+    background-color: #0ea5e9 !important;
+
+}
+
+.html {
+    background-color: #ea580c !important;
+
+}
+
+.css {
+    background-color: #1d4ed8 !important;
+
+}
+
+.bootstrap {
+    background-color: #5b21b6 !important;
+
+}
+
+.tss {
+    background-color: #38bdf8 !important;
+
+}
+
+.react {
+    background-color: #7dd3fc !important;
+
+}
+
+.express {
+    background-color: #fbbf24 !important;
+
+}
+
+.node {
+    background-color: #1a2e05 !important;
+
+}
+
+.mongodb {
+    background-color: #16a34a !important;
+
+}
+
+.git {
+    background-color: #0369a1 !important;
 
 }
 
@@ -534,11 +606,12 @@ footer {
     }
 
     .Right {
+
         margin-top: 2rem;
         align-items: center;
         font-size: large;
         font-style: italic;
-        line-height: 2rem;
+        line-height: 3rem;
     }
 
     .certificates {
@@ -635,21 +708,24 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        background-size: auto 700px;
 
 
     }
 
     .contactme .right {
         display: flex;
+        padding: 0;
         flex-direction: row;
+
 
 
     }
 
     .contactme .right .social-links .links {
+        width: auto;
         height: 1rem;
-        margin: 0 0 0 0;
+        padding: 0;
+        margin: 0 1rem 0 0;
         cursor: pointer;
     }
 
@@ -725,6 +801,20 @@ footer {
         display: flex;
         flex-direction: column;
         margin: 0 2rem 3rem 0;
+    }
+
+    .container .Right {
+        width: auto;
+    }
+
+
+    .Right {
+        max-width: 100%;
+        margin: 2rem 0 0 0;
+        align-items: center;
+        font-size: large;
+        font-style: italic;
+        line-height: 3rem;
     }
 
     .contactme .left form {

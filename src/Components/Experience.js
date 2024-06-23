@@ -1,5 +1,10 @@
 
 import React from 'react'
+import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
+
+
+
 
 
 export const Experience = () => {
@@ -20,45 +25,114 @@ export const Experience = () => {
     }
     return (
         <>
+            <Tooltip id="my-tooltip" />
             <div className="Experiences">
                 <div className="skills">
                     <div className='title'>Skills</div>
 
                     <div className='programmingLanguages'>
-                        <div className='icon'><img src='/Assets/letter-c.png' alt='letter' /></div>
-                        <div className='icon'><img src='/Assets/c-.png' alt='c' /></div>
-                        <div className='icon'><img src='/Assets/java-script.png' alt='js' /></div>
+
+                        <div className='icon'><img src='/Assets/letter-c.png'
+                            alt='letter'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='C Programming'
+                            data-tooltip-class-name='cProgramming'
+                            data-tooltip-place='top'
+
+                        /></div>
+                        <div className='icon'><img src='/Assets/c-.png' alt='c'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='C++ Programming'
+                            data-tooltip-class-name='oop'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/java-script.png' alt='js'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='JavaScript'
+                            data-tooltip-class-name='js'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/ts.png' alt='ts'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='TypeScript'
+                            data-tooltip-class-name='ts'
+                            data-tooltip-place='top'
+                        /></div>
 
                     </div>
                     <hr />
                     <div className='programmingLanguages'>
-                        <div className='icon'><img src='/Assets/html-5.png' alt='html' /></div>
-                        <div className='icon'><img src='/Assets/css-3.png' alt='css' /></div>
-                        <div className='icon'><img src='/Assets/bootstrap.png' alt='bot' /></div>
-                        <div className='icon'><img src='/Assets/tailwind.png' alt='tss' /></div>
+                        <div className='icon'><img src='/Assets/html-5.png' alt='html'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='HTML'
+                            data-tooltip-class-name='html'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/css-3.png' alt='css'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='CSS'
+                            data-tooltip-class-name='css'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/bootstrap.png' alt='bot'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='Bootstrap 5'
+                            data-tooltip-class-name='bootstrap'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/tailwind.png' alt='tss'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='Tailwind Css'
+                            data-tooltip-class-name='tss'
+                            data-tooltip-place='top'
+                        /></div>
 
                     </div>
                     <hr />
                     <div className='programmingLanguages'>
-                        <div className='icon'><img src='/Assets/react.png' alt='react' /></div>
-                        <div className='icon'><img src='/Assets/express-js.png' alt='react' /></div>
-                        <div className='icon'><img src='/Assets/nodejs.png' alt='node' /></div>
+                        <div className='icon'><img src='/Assets/react.png' alt='react'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='React'
+                            data-tooltip-class-name='react'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/express-js.png' alt='react'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='Express.Js'
+                            data-tooltip-class-name='express'
+                            data-tooltip-place='top'
+                        /></div>
+                        <div className='icon'><img src='/Assets/nodejs.png' alt='node'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='Node.JS'
+                            data-tooltip-class-name='node'
+                            data-tooltip-place='top'
+                        /></div>
                     </div>
                     <hr />
                     <div className='programmingLanguages' >
-                        <div className='icon'><img src='/Assets/mdb.png' alt='mdb_icon' /></div>
+                        <div className='icon'><img src='/Assets/mdb.png' alt='mdb_icon'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='MongoDb'
+                            data-tooltip-class-name='mongodb'
+                            data-tooltip-place='top'
+                        /></div>
 
                     </div>
                     <hr />
                     <div className='programmingLanguages' >
 
-                        <div className='icon'><img src='/Assets/github.png' alt='git_icon' /></div>
+                        <div className='icon'><img src='/Assets/github.png' alt='git_icon'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='Version Control Git'
+                            data-tooltip-class-name='git'
+                            data-tooltip-place='top' /></div>
                     </div>
                     <hr />
                 </div>
 
                 <div className="certificates">
-                    <div className='title'>Experience</div>
+                    <div className='title'>Participation</div>
                     <div className='workshops'>
 
                         <div className='certificate-one'>
