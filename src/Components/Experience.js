@@ -21,7 +21,13 @@ export const Experience = () => {
         window.open(file, '_blank')
     }
     const Docker = () => {
+        const file = 'Assets/docker.pdf'
+        window.open(file, '_blank')
 
+    }
+    const MERN = () => {
+        const file = 'Assets/mern.png'
+        window.open(file, '_blank')
     }
     return (
         <>
@@ -118,6 +124,8 @@ export const Experience = () => {
                             data-tooltip-place='top'
                         /></div>
 
+
+
                     </div>
                     <hr />
                     <div className='programmingLanguages' >
@@ -127,14 +135,24 @@ export const Experience = () => {
                             data-tooltip-content='Version Control Git'
                             data-tooltip-class-name='git'
                             data-tooltip-place='top' /></div>
+
+                        <div className='icon'><img src='/Assets/dockerpng.png' alt='docker_icon'
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content='docker'
+                            data-tooltip-class-name='docker'
+                            data-tooltip-place='top'
+                        /></div>
                     </div>
                     <hr />
                 </div>
 
                 <div className="certificates">
-                    <div className='title'>Participation</div>
+                    <div className='title'>Participation And Certificates</div>
                     <div className='workshops'>
-
+                        <div className='certificate-one'>
+                            <h1 className='one'>1.</h1>
+                            <div className='file' onClick={MERN}><span>MERN Stack</span></div>
+                        </div>
                         <div className='certificate-one'>
                             <h1 className='one'>1.</h1>
                             <div className='file' onClick={HEX}><span>HEx Genius HACKATHON</span></div>
@@ -145,11 +163,11 @@ export const Experience = () => {
                         </div>
                         <div className='certificate-one'>
                             <h1 className='one'>3.</h1>
-                            <div className='file' onClick={Docker}><span>3-day Workshop on Docker</span></div>
+                            <div className='file' onClick={Docker}><span>Docker</span></div>
                         </div>
                         <div className='certificate-one'>
                             <h1 className='one'>4.</h1>
-                            <div className='file' onClick={Techfest}><span>Participation in IIT Techfest Bombay</span></div>
+                            <div className='file' onClick={Techfest}><span>IIT Techfest Bombay</span></div>
                         </div>
                     </div>
                 </div>

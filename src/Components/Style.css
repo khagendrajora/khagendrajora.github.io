@@ -155,7 +155,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 18rem;
+    width: 25rem;
 }
 
 .cProgramming {
@@ -220,6 +220,10 @@ img {
 
 .git {
     background-color: #0369a1 !important;
+}
+
+.docker {
+    background-color: #58acd9 !important;
 
 }
 
@@ -227,18 +231,18 @@ img {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 
 .icon {
 
-    width: 3rem;
+    width: 4rem;
 }
 
 .icon:hover {
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .certificates {

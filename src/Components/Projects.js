@@ -20,8 +20,8 @@ const Projects = () => {
                             <div className='icon'><img src='/Assets/react.png' alt='react' /></div>
                             <div className='projectTitle'>Ecommerce Application using React</div>
                         </div>
-                        <p>This is a full stack  ecommerce application made on <b>React</b> by using AFI data of facestore API.</p>
-                        <div className='button-container'><button className='btn'><a href='https://khagendraecommerceapp.netlify.app/'>Live Demo</a></button></div>
+                        <p>This is a ecommerce application made on <b>React</b> by using AFI data of facestore API.</p>
+                        <div className='button-container'><button className='btn'><a href='https://willowy-granita-fffc16.netlify.app/'>Live Demo</a></button></div>
                     </div>
                     <div className='app'>
                         <div className='innerapp'>
