@@ -1,178 +1,317 @@
-
-import React from 'react'
-import { Tooltip } from 'react-tooltip'
-import 'react-tooltip/dist/react-tooltip.css'
-
-
-
-
+import React, { useContext } from "react";
+import { useInView } from "react-intersection-observer";
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+import { AnimationContext } from "../Context/useContext";
 
 export const Experience = () => {
-    const HEX = () => {
-        const file = '/Assets/HEx.jpg'
-        window.open(file, 'blank')
-    }
-    const Dursikshya = () => {
-        const file = 'Assets/dursikshya.jpg'
-        window.open(file, '_blank')
-    }
-    const Techfest = () => {
-        const file = 'Assets/Khagendra.png'
-        window.open(file, '_blank')
-    }
-    const Docker = () => {
-        const file = 'Assets/docker.pdf'
-        window.open(file, '_blank')
+  const { threshold } = useContext(AnimationContext);
 
-    }
-    const MERN = () => {
-        const file = 'Assets/mern.png'
-        window.open(file, '_blank')
-    }
-    return (
-        <>
-            <Tooltip id="my-tooltip" />
-            <div className="Experiences">
-                <div className="skills">
-                    <div className='title'>Skills</div>
+  const certificates = [
+    {
+      id: 1,
+      title: "MERN Stack",
+      file: "Assets/mern.png",
+      animation: "mern",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 2,
+      title: "HEx Genius HACKATHON",
+      file: "/Assets/HEx.jpg",
+      animation: "hex",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 3,
+      title: "In-House Project Competition",
+      file: "Assets/dursikshya.jpg",
+      animation: "dursikshya",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 4,
+      title: "Docker",
+      file: "Assets/docker.pdf",
+      animation: "dockers",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 5,
+      title: "IIT Techfest Bombay",
+      file: "Assets/Khagendra.png",
+      animation: "iit",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
-                    <div className='programmingLanguages'>
+  const firstRow = [
+    {
+      id: 1,
+      content: "C Programming",
+      img: "/Assets/letter-c.png",
+      names: "cProgramming",
+      animation: "cProgramming",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 2,
+      content: "C++ Programming",
+      img: "/Assets/c-.png",
+      names: "oop",
+      animation: "oop",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 3,
+      content: "JavaScript",
+      img: "/Assets/java-script.png",
+      names: "js",
+      animation: "js",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 4,
+      content: "TypeScript",
+      img: "/Assets/ts.png",
+      names: "ts",
+      animation: "ts",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
-                        <div className='icon'><img src='/Assets/letter-c.png'
-                            alt='letter'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='C Programming'
-                            data-tooltip-class-name='cProgramming'
-                            data-tooltip-place='top'
+  const secondRow = [
+    {
+      id: 1,
+      content: "HTML",
+      img: "/Assets/html-5.png",
+      names: "html",
+      animation: "html",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 2,
+      content: "CSS",
+      img: "/Assets/css-3.png",
+      names: "css",
+      animation: "css",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 3,
+      content: "Bootstrap 5",
+      img: "/Assets/bootstrap.png",
+      names: "bootstrap",
+      animation: "bootstrap",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 4,
+      content: "Tailwind Css",
+      img: "/Assets/tailwind.png",
+      names: "tss",
+      animation: "tss",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
-                        /></div>
-                        <div className='icon'><img src='/Assets/c-.png' alt='c'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='C++ Programming'
-                            data-tooltip-class-name='oop'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/java-script.png' alt='js'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='JavaScript'
-                            data-tooltip-class-name='js'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/ts.png' alt='ts'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='TypeScript'
-                            data-tooltip-class-name='ts'
-                            data-tooltip-place='top'
-                        /></div>
+  const thirdRow = [
+    {
+      id: 1,
+      content: "React",
+      img: "/Assets/react.png",
+      names: "react",
+      animation: "react",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 2,
+      content: "Express.Js",
+      img: "/Assets/express-js.png",
+      names: "express",
+      animation: "express",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 3,
+      content: "Node.JS",
+      img: "/Assets/nodejs.png",
+      names: "node",
+      animation: "node",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
-                    </div>
-                    <hr />
-                    <div className='programmingLanguages'>
-                        <div className='icon'><img src='/Assets/html-5.png' alt='html'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='HTML'
-                            data-tooltip-class-name='html'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/css-3.png' alt='css'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='CSS'
-                            data-tooltip-class-name='css'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/bootstrap.png' alt='bot'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='Bootstrap 5'
-                            data-tooltip-class-name='bootstrap'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/tailwind.png' alt='tss'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='Tailwind Css'
-                            data-tooltip-class-name='tss'
-                            data-tooltip-place='top'
-                        /></div>
+  const fourthRow = [
+    {
+      id: 1,
+      content: "MongoDB",
+      img: "/Assets/mdb.png",
+      names: "mongodb",
+      animation: "mongodb",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
-                    </div>
-                    <hr />
-                    <div className='programmingLanguages'>
-                        <div className='icon'><img src='/Assets/react.png' alt='react'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='React'
-                            data-tooltip-class-name='react'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/express-js.png' alt='react'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='Express.Js'
-                            data-tooltip-class-name='express'
-                            data-tooltip-place='top'
-                        /></div>
-                        <div className='icon'><img src='/Assets/nodejs.png' alt='node'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='Node.JS'
-                            data-tooltip-class-name='node'
-                            data-tooltip-place='top'
-                        /></div>
-                    </div>
-                    <hr />
-                    <div className='programmingLanguages' >
-                        <div className='icon'><img src='/Assets/mdb.png' alt='mdb_icon'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='MongoDb'
-                            data-tooltip-class-name='mongodb'
-                            data-tooltip-place='top'
-                        /></div>
+  const fifthRow = [
+    {
+      id: 1,
+      content: "Version Control Git",
+      img: "/Assets/github.png",
+      names: "git",
+      animation: "git",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 2,
+      content: "Docker",
+      img: "/Assets/dockerpng.png",
+      names: "docker",
+      animation: "docker",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+  ];
 
+  const openFile = (file) => {
+    window.open(file, "_blank");
+  };
 
+  return (
+    <>
+      <Tooltip id="my-tooltip" />
+      <div className="Experiences">
+        <div className="skills">
+          <div className="title">Skills</div>
+          <div className="programmingLanguages">
+            {firstRow.map(({ id, content, names, animation, img, ref }) => {
+              const { ref: proRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
 
-                    </div>
-                    <hr />
-                    <div className='programmingLanguages' >
-
-                        <div className='icon'><img src='/Assets/github.png' alt='git_icon'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='Version Control Git'
-                            data-tooltip-class-name='git'
-                            data-tooltip-place='top' /></div>
-
-                        <div className='icon'><img src='/Assets/dockerpng.png' alt='docker_icon'
-                            data-tooltip-id="my-tooltip"
-                            data-tooltip-content='docker'
-                            data-tooltip-class-name='docker'
-                            data-tooltip-place='top'
-                        /></div>
-                    </div>
-                    <hr />
+              return (
+                <div key={id} className="icon" ref={proRef}>
+                  <img
+                    src={img}
+                    alt="letter"
+                    className={`animated-img ${animationClass}`}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={content}
+                    data-tooltip-class-name={names}
+                    data-tooltip-place="top"
+                  />
                 </div>
+              );
+            })}
+          </div>
+          <hr />
 
-                <div className="certificates">
-                    <div className='title'>Participation And Certificates</div>
-                    <div className='workshops'>
-                        <div className='certificate-one'>
-                            <h1 className='one'>1.</h1>
-                            <div className='file' onClick={MERN}><span>MERN Stack</span></div>
-                        </div>
-                        <div className='certificate-one'>
-                            <h1 className='one'>1.</h1>
-                            <div className='file' onClick={HEX}><span>HEx Genius HACKATHON</span></div>
-                        </div>
-                        <div className='certificate-one'>
-                            <h1 className='one'>2.</h1>
-                            <div className='file' onClick={Dursikshya}><span>In-House Project Competition</span></div>
-                        </div>
-                        <div className='certificate-one'>
-                            <h1 className='one'>3.</h1>
-                            <div className='file' onClick={Docker}><span>Docker</span></div>
-                        </div>
-                        <div className='certificate-one'>
-                            <h1 className='one'>4.</h1>
-                            <div className='file' onClick={Techfest}><span>IIT Techfest Bombay</span></div>
-                        </div>
-                    </div>
+          <div className="programmingLanguages">
+            {secondRow.map(({ id, content, names, animation, img, ref }) => {
+              const { ref: proRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
+
+              return (
+                <div key={id} className="icon" ref={proRef}>
+                  <img
+                    src={img}
+                    alt="letter"
+                    className={`animated-img ${animationClass}`}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={content}
+                    data-tooltip-class-name={names}
+                    data-tooltip-place="top"
+                  />
                 </div>
-            </div>
+              );
+            })}
+          </div>
+          <hr />
+          <div className="programmingLanguages">
+            {thirdRow.map(({ id, content, names, animation, img, ref }) => {
+              const { ref: proRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
 
-        </>
-    )
-}
+              return (
+                <div key={id} className="icon" ref={proRef}>
+                  <img
+                    src={img}
+                    alt="letter"
+                    className={`animated-img ${animationClass}`}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={content}
+                    data-tooltip-class-name={names}
+                    data-tooltip-place="top"
+                  />
+                </div>
+              );
+            })}
+          </div>
+          <hr />
+          <div className="programmingLanguages">
+            {fourthRow.map(({ id, content, names, animation, img, ref }) => {
+              const { ref: proRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
+
+              return (
+                <div key={id} className="icon" ref={proRef}>
+                  <img
+                    src={img}
+                    alt="letter"
+                    className={`animated-img ${animationClass}`}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={content}
+                    data-tooltip-class-name={names}
+                    data-tooltip-place="top"
+                  />
+                </div>
+              );
+            })}
+          </div>
+          <hr />
+          <div className="programmingLanguages">
+            {fifthRow.map(({ id, content, names, animation, img, ref }) => {
+              const { ref: proRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
+
+              return (
+                <div key={id} className="icon" ref={proRef}>
+                  <img
+                    src={img}
+                    alt="letter"
+                    className={`animated-img ${animationClass}`}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={content}
+                    data-tooltip-class-name={names}
+                    data-tooltip-place="top"
+                  />
+                </div>
+              );
+            })}
+          </div>
+          <hr />
+        </div>
+        <div className="certificates">
+          <div className="title">Participation And Certificates</div>
+          <div className="workshops">
+            {certificates.map(({ id, title, file, animation, ref }) => {
+              const { ref: certRef, inView } = ref;
+              const animationClass = inView ? animation : "hidden";
+              return (
+                <div
+                  key={id}
+                  ref={certRef}
+                  className={`certificate-one ${animationClass}`}
+                  onClick={() => openFile(file)}
+                >
+                  <h1 className="one">{id}.</h1>
+                  <div className="file">
+                    <span>{title}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};

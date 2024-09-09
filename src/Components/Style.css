@@ -81,14 +81,20 @@ nav ul {
 .container .Left {
     display: flex;
     justify-content: center;
+
 }
+
 
 .container .Left img {
     border-radius: 10%;
     object-fit: cover;
     object-position: 40% 2%;
 
+
 }
+
+
+
 
 
 
@@ -159,71 +165,72 @@ img {
 }
 
 .cProgramming {
-    background-color: #38bdf8 !important;
+    color: #38bdf8 !important;
+
 
 }
 
 .oop {
-    background-color: #0284c7 !important;
+    color: #0284c7 !important;
 
 }
 
 .js {
-    background-color: #facc15 !important;
+    color: #facc15 !important;
 
 }
 
 .ts {
-    background-color: #0ea5e9 !important;
+    color: #0ea5e9 !important;
 
 }
 
 .html {
-    background-color: #ea580c !important;
+    color: #ea580c !important;
 
 }
 
 .css {
-    background-color: #1d4ed8 !important;
+    color: #1d4ed8 !important;
 
 }
 
 .bootstrap {
-    background-color: #5b21b6 !important;
+    color: #5b21b6 !important;
 
 }
 
 .tss {
-    background-color: #38bdf8 !important;
+    color: #38bdf8 !important;
 
 }
 
 .react {
-    background-color: #7dd3fc !important;
+    color: #7dd3fc !important;
 
 }
 
 .express {
-    background-color: #fbbf24 !important;
+    color: #fbbf24 !important;
 
 }
 
 .node {
-    background-color: #1a2e05 !important;
+    color: #7ee90b !important;
 
 }
 
 .mongodb {
-    background-color: #16a34a !important;
+    color: #16a34a !important;
 
 }
 
 .git {
-    background-color: #0369a1 !important;
+    color: #0369a1 !important;
 }
 
 .docker {
-    background-color: #58acd9 !important;
+    color: #58acd9 !important;
 
 }
 
@@ -239,6 +246,7 @@ img {
 .icon {
 
     width: 4rem;
+
 }
 
 .icon:hover {
@@ -735,6 +743,7 @@ footer {
 
 
 @media screen and (min-width: 577px) and (max-width:800px) {
+
 
     .image .info {
         position: absolute;
