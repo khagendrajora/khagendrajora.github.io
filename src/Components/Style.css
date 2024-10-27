@@ -310,9 +310,6 @@ img {
 
 .certificate-one .one:hover {
     transform: scale(1.1);
-
-
-
 }
 
 
@@ -399,15 +396,16 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-image: url("../../public/Assets/icons.jpg");
     width: 100%;
     height: auto;
-
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 2rem 0 0 0;
-    object-fit: cover;
 
+}
+
+.contactme .leftOne {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .contactme .left form {
@@ -444,36 +442,26 @@ img {
 
 }
 
+.contactme .left form button:hover {
+    background-color: #0cccf2;
+    color: black;
+    height: 3rem;
+
+}
+
 .contactme .right {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     width: auto;
 
 }
 
-.contactme .right .social-links {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-
-}
-
-.contactme .right .social-links .links {
-    width: 5rem;
-    height: 5rem;
-    margin: 0 0 0 5rem;
-    cursor: pointer;
-}
-
-
 /* footer */
 footer {
 
     background-color: rgb(79, 142, 244);
-    padding: 3rem;
-
-
+    /* padding: 3rem; */
 }
 
 .icons {
@@ -724,16 +712,13 @@ footer {
         display: flex;
         padding: 0;
         flex-direction: row;
-
-
-
     }
 
     .contactme .right .social-links .links {
         width: auto;
-        height: 1rem;
+        height: 20px;
         padding: 0;
-        margin: 0 1rem 0 0;
+        margin: 0 2rem 0 0;
         cursor: pointer;
     }
 
@@ -768,23 +753,24 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-
         margin: 2rem;
     }
 
     .contactme .right {
         display: flex;
+        padding: 0;
         flex-direction: row;
-
-        margin: 2rem 0 0 0;
-
     }
 
     .contactme .right .social-links .links {
-        height: 2rem;
-        margin: 0 0 0 0;
+        width: auto;
+        height: 20px;
+        padding: 0;
+        margin: 0 2rem 0 0;
         cursor: pointer;
     }
+
+
 
     .projects {
         display: flex;
