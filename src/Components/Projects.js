@@ -10,6 +10,20 @@ const Projects = () => {
           <div className="app">
             <div className="innerapp">
               <div className="icon">
+                <img src="/Assets/react.png" alt="python" />
+              </div>
+              <div className="projectTitle">Website of Bharatpur ward 12</div>
+            </div>
+            <p>This is an website of the Bharatpur ward 12.</p>
+            <div className="button-container">
+              <button className="btn">
+                <a href="https://bharatpur12.org/#/">Live</a>
+              </button>
+            </div>
+          </div>
+          <div className="app">
+            <div className="innerapp">
+              <div className="icon">
                 <img src="/Assets/mern.jpeg" alt="mern" />
               </div>
               <div className="projectTitle">Online Restaurant</div>
@@ -48,11 +62,25 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="app">
+           <div className="app">
             <div className="innerapp">
               <div className="icon">
-                <img src="/Assets/python.png" alt="python" />
+                <img src="/Assets/react.png" alt="python" />
               </div>
+              <div className="projectTitle">Corporate Company Website</div>
+            </div>
+            <p>A website for a corporate company called KridaLabs.</p>
+            <div className="button-container">
+              <button className="btn">
+                <a href="https://kridalabs.com/">Live</a>
+              </button>
+            </div>
+          </div>
+          <div className="app">
+            <div className="innerapp">
+              {/* <div className="icon">
+                <img src="/Assets/python.png" alt="python" />
+              </div> */}
               <div className="projectTitle">
                 Online Bidding Platform based on Recommended System Using Django
               </div>
@@ -73,9 +101,9 @@ const Projects = () => {
           </div>
           <div className="app">
             <div className="innerapp">
-              <div className="icon">
-                <img src="/Assets/python.png" alt="python" />
-              </div>
+              {/* <div className="icon">
+                <img src="" alt="python" />
+              </div> */}
               <div className="projectTitle">
                 Community connect application using ML
               </div>
@@ -94,20 +122,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="app">
-            <div className="innerapp">
-              <div className="icon">
-                <img src="/Assets/python.png" alt="python" />
-              </div>
-              <div className="projectTitle">Corporate Company Website</div>
-            </div>
-            <p>A website for a corporate company called KridaLabs.</p>
-            <div className="button-container">
-              <button className="btn">
-                <a href="https://kridalabs.com/">Live</a>
-              </button>
-            </div>
-          </div>
+         
         </div>
       </div>
     </>
