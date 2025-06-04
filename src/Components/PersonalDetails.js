@@ -70,7 +70,11 @@ const PersonalDetails = () => {
               of PACE (Project Association of Computer and Electronics){" "}
             </div>
             <div>
-              <b>Current Profession</b>- Junior Developer at -{" "}
+              <b>Junoir Frontend / React</b>- Junior Frontend / React Developer
+              at - DigiSoft Developers
+            </div>
+            <div>
+              <b>Current Profession</b>- Junior Full Stack Developer at -{" "}
               <Link to="https://www.sinepal.com/">Smart Innovations</Link>
             </div>
 

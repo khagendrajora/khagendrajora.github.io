@@ -1,542 +1,511 @@
- .Left.hidden {
-     opacity: 0;
-     display: block;
- }
-
- .Left.animate {
-     display: block;
-     opacity: 1;
-     position: relative;
-     animation-name: image;
-     animation-duration: 0.3s;
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
- }
-
- @keyframes image {
-     from {
-         left: -200px;
-     }
-
-     to {
-         left: 0px;
-     }
- }
-
-
- .Right.hidden {
-     opacity: 0;
-
- }
-
- .Right.animate {
-     opacity: 1;
-     position: relative;
-     animation-name: rightside;
-     animation-duration: 0.3s;
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
- }
-
- @keyframes rightside {
-     from {
-         right: -200px;
-     }
-
-     to {
-         right: 0px;
-     }
- }
-
- .resume.hidden {
-     opacity: 0;
-
- }
-
- .resume.animate {
-     opacity: 1;
-     position: relative;
-     animation-name: button;
-     animation-duration: 1s;
-     /* animation-delay: 0.3s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes button {
-     from {
-         right: -200px;
-     }
-
-     to {
-         right: 0px;
-     }
-
- }
-
-
- /* Experience */
- .hex.hidden {
-     opacity: 0;
-     display: none
- }
-
- .dursikshya.hidden {
-     opacity: 0;
-     display: none
- }
-
- .dockers.hidden {
-     opacity: 0;
-     display: none
- }
-
- .iit.hidden {
-     opacity: 0;
-     display: none
- }
-
- /* animation */
- .hex {
-     opacity: 1;
-     position: relative;
-     animation-name: hex;
-     animation-duration: 800ms;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- .dursikshya {
-     opacity: 1;
-     position: relative;
-     animation-name: dursikshya;
-     animation-duration: 1.1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- .dockers {
-     opacity: 1;
-     position: relative;
-     animation-name: dockers;
-     animation-duration: 1.2s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- .iit {
-     opacity: 1;
-     position: relative;
-     animation-name: iit;
-     animation-duration: 1.3s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes hex {
-     from {
-         top: -100px;
-     }
-
-     to {
-         top: 0px;
-     }
-
- }
-
-
- @keyframes dursikshya {
-     from {
-         top: -200px;
-     }
-
-     to {
-         top: 0px;
-     }
-
- }
-
- @keyframes dockers {
-     from {
-         top: -300px;
-     }
-
-     to {
-         top: 0px;
-     }
-
- }
-
-
- @keyframes iit {
-     from {
-         top: -400px;
-     }
-
-     to {
-         top: 0px;
-     }
-
- }
-
-
-
- .animated-img {
-     opacity: 0;
-
- }
-
- .animated-img.hidden {
-     opacity: 0;
-
- }
-
- .animated-img.cProgramming {
-
-     opacity: 1;
-     position: relative;
-     animation-name: cProgramming;
-     animation-duration: 1s;
-     /* animation-delay: 1.3s; */
-     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-     animation-iteration-count: 1;
-
- }
-
- @keyframes cProgramming {
-     from {
-         left: -200px;
-         top: -100px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
-
-
- .animated-img.oop {
-     opacity: 1;
-     position: relative;
-     animation-name: oop;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes oop {
-     from {
-         left: -300px;
-         top: -100px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
-
- .animated-img.js {
-     opacity: 1;
-     position: relative;
-     animation-name: js;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes js {
-     from {
-         left: -400px;
-         top: -100px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
- .animated-img.ts {
-     opacity: 1;
-     position: relative;
-     animation-name: ts;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes ts {
-     from {
-         left: -500px;
-         top: -100px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
- .animated-img.html {
-     opacity: 1;
-     position: relative;
-     animation-name: html;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes html {
-     from {
-         left: -200px;
-         top: -210px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
- .animated-img.css {
-     opacity: 1;
-     position: relative;
-     animation-name: css;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes css {
-     from {
-         left: -300px;
-         top: -210px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
-
- .animated-img.bootstrap {
-     opacity: 1;
-     position: relative;
-     animation-name: bootstrap;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes bootstrap {
-     from {
-         left: -400px;
-         top: -210px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
- .animated-img.tss {
-     opacity: 1;
-     position: relative;
-     animation-name: tss;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes tss {
-     from {
-         left: -500px;
-         top: -210px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
-
-
-
- .animated-img.react {
-     opacity: 1;
-     position: relative;
-     animation-name: react;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes react {
-     from {
-         left: -210px;
-         top: -310px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
- .animated-img.express {
-     opacity: 1;
-     position: relative;
-     animation-name: express;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes express {
-     from {
-         left: -320px;
-         top: -320px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
-
- .animated-img.node {
-     opacity: 1;
-     position: relative;
-     animation-name: node;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes node {
-     from {
-         left: -440px;
-         top: -340px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
- .animated-img.mongodb {
-     opacity: 1;
-     position: relative;
-     animation-name: mongodb;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes mongodb {
-     from {
-         left: -240px;
-         top: -440px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
- }
-
-
- .animated-img.git {
-     opacity: 1;
-     position: relative;
-     animation-name: git;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes git {
-     from {
-         left: -200px;
-         top: -500px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
-
-
- .animated-img.docker {
-     opacity: 1;
-     position: relative;
-     animation-name: docker;
-     animation-duration: 1s;
-     /* animation-delay: 1s; */
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-
- }
-
- @keyframes docker {
-     from {
-         left: -200px;
-         top: -600px;
-     }
-
-     to {
-         left: 0px;
-         top: 0px;
-     }
-
- }
+.Left.hidden {
+  opacity: 0;
+  display: block;
+}
+
+.Left.animate {
+  display: block;
+  opacity: 1;
+  position: relative;
+  animation-name: image;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes image {
+  from {
+    left: -200px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+.Right.hidden {
+  opacity: 0;
+}
+
+.Right.animate {
+  opacity: 1;
+  position: relative;
+  animation-name: rightside;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes rightside {
+  from {
+    right: -200px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+.resume.hidden {
+  opacity: 0;
+}
+
+.resume.animate {
+  opacity: 1;
+  position: relative;
+  animation-name: button;
+  animation-duration: 1s;
+  /* animation-delay: 0.3s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes button {
+  from {
+    right: -200px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+/* Experience */
+.hex.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.dursikshya.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.dockers.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.iit.hidden {
+  opacity: 0;
+  display: none;
+}
+
+/* animation */
+.hex {
+  opacity: 1;
+  position: relative;
+  animation-name: hex;
+  animation-duration: 800ms;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.dursikshya {
+  opacity: 1;
+  position: relative;
+  animation-name: dursikshya;
+  animation-duration: 1.1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.dockers {
+  opacity: 1;
+  position: relative;
+  animation-name: dockers;
+  animation-duration: 1.2s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.iit {
+  opacity: 1;
+  position: relative;
+  animation-name: iit;
+  animation-duration: 1.3s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes hex {
+  from {
+    top: -100px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes dursikshya {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes dockers {
+  from {
+    top: -300px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes iit {
+  from {
+    top: -400px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+.animated-img {
+  opacity: 0;
+}
+
+.animated-img.hidden {
+  opacity: 0;
+}
+
+.animated-img.cProgramming {
+  opacity: 1;
+  position: relative;
+  animation-name: cProgramming;
+  animation-duration: 1s;
+  /* animation-delay: 1.3s; */
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: 1;
+}
+
+@keyframes cProgramming {
+  from {
+    left: -200px;
+    top: -100px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.oop {
+  opacity: 1;
+  position: relative;
+  animation-name: oop;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes oop {
+  from {
+    left: -300px;
+    top: -100px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.js {
+  opacity: 1;
+  position: relative;
+  animation-name: js;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes js {
+  from {
+    left: -400px;
+    top: -100px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.ts {
+  opacity: 1;
+  position: relative;
+  animation-name: ts;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes ts {
+  from {
+    left: -500px;
+    top: -100px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.html {
+  opacity: 1;
+  position: relative;
+  animation-name: html;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes html {
+  from {
+    left: -200px;
+    top: -210px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.css {
+  opacity: 1;
+  position: relative;
+  animation-name: css;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes css {
+  from {
+    left: -300px;
+    top: -210px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.bootstrap {
+  opacity: 1;
+  position: relative;
+  animation-name: bootstrap;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes bootstrap {
+  from {
+    left: -400px;
+    top: -210px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.tss {
+  opacity: 1;
+  position: relative;
+  animation-name: tss;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes tss {
+  from {
+    left: -500px;
+    top: -210px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.react {
+  opacity: 1;
+  position: relative;
+  animation-name: react;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes react {
+  from {
+    left: -210px;
+    top: -310px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.express {
+  opacity: 1;
+  position: relative;
+  animation-name: express;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes express {
+  from {
+    left: -320px;
+    top: -320px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.node {
+  opacity: 1;
+  position: relative;
+  animation-name: node;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes node {
+  from {
+    left: -440px;
+    top: -340px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.mongodb {
+  opacity: 1;
+  position: relative;
+  animation-name: mongodb;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes mongodb {
+  from {
+    left: -240px;
+    top: -440px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.postgresql {
+  opacity: 1;
+  position: relative;
+  animation-name: postgresql;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes postgresql {
+  from {
+    left: -240px;
+    top: -440px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.git {
+  opacity: 1;
+  position: relative;
+  animation-name: git;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes git {
+  from {
+    left: -200px;
+    top: -500px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animated-img.docker {
+  opacity: 1;
+  position: relative;
+  animation-name: docker;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes docker {
+  from {
+    left: -200px;
+    top: -600px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}

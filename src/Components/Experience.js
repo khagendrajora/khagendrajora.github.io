@@ -15,7 +15,7 @@ export const Experience = () => {
       animation: "mern",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
-      {
+    {
       id: 2,
       title: "AWS Solution Architect",
       file: "https://cp.certmetrics.com/amazon/en/public/verify/credential/2d0066ca65fe4ae791fb275b4e18389d",
@@ -158,6 +158,15 @@ export const Experience = () => {
       animation: "mongodb",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
+
+    {
+      id: 2,
+      content: "PostgreSQL",
+      img: "/Assets/icons8-postgresql-96.png",
+      names: "postgreSQL",
+      animation: "postgresql",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
   ];
 
   const fifthRow = [
@@ -177,7 +186,7 @@ export const Experience = () => {
       animation: "docker",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
-       {
+    {
       id: 3,
       content: "AWS Solution Architect",
       img: "/Assets/images.png",

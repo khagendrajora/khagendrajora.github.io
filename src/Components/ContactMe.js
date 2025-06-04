@@ -18,7 +18,7 @@ const ContactMe = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_0ol2zmr", "template_dga760m", form.current, {
+      .sendForm("service_0ol2zmr","template_dga760m", form.current, {
         publicKey: "XTzIryEJ7sNcW50an",
       })
       .then(

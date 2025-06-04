@@ -1,15 +1,7 @@
 import { createContext, useEffect, useState } from "react";
-
-
-
 export const AnimationContext=createContext()
-
-
-
 export const Context=({children})=>{
-
     const [threshold, setThreshold] = useState(0.2);
-
     const updateThreshold = () => {
         if (window.innerWidth <= 576) {
             setThreshold(0.1);
@@ -19,7 +11,6 @@ export const Context=({children})=>{
             setThreshold(0.2);
         }
     };
-
     useEffect(() => {
         updateThreshold();
 

@@ -125,7 +125,7 @@ export const Header = () => {
               I am a <span id="element">{elementText}</span>{" "}
             </p>
             <div style={{ marginTop: "17px" }}>
-              <Link to="https://www.linkedin.com/in/khagendra-singh-jora-7a8808182/">
+              <Link to="https://www.linkedin.com/in/er-khagendra-singh-jora-7a8808182/">
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
                   className="links"
