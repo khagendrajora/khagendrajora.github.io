@@ -10,8 +10,8 @@
       "title": "Toursewa",
       "description": "This is a Full Stack service providing application. This project was build using the tools Reactjs, tailwind, framer Motions, mongodb, nodejs, expressjs and necessary dependencies and libraries",
       "image": "/Assets/The Full Stack Web Development.jpeg",
-      "link": "",
-      "linkLabel": ""
+      "link": "http://172.232.114.238:5000/",
+      "linkLabel": "Live"
     },
     {
       "title": "Website of Smart Innovation",

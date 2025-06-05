@@ -17,32 +17,33 @@ export const Experience = () => {
     },
     {
       id: 2,
+      title: "Docker",
+      file: "Assets/docker.pdf",
+      animation: "dockers",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
+    {
+      id: 3,
       title: "AWS Solution Architect",
       file: "https://cp.certmetrics.com/amazon/en/public/verify/credential/2d0066ca65fe4ae791fb275b4e18389d",
       animation: "hex",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
     {
-      id: 3,
+      id: 4,
       title: "HEx Genius HACKATHON",
       file: "/Assets/HEx.jpg",
       animation: "hex",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
     {
-      id: 4,
+      id: 5,
       title: "In-House Project Competition",
       file: "Assets/dursikshya.jpg",
       animation: "dursikshya",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
-    {
-      id: 5,
-      title: "Docker",
-      file: "Assets/docker.pdf",
-      animation: "dockers",
-      ref: useInView({ threshold: threshold, triggerOnce: false }),
-    },
+
     {
       id: 6,
       title: "IIT Techfest Bombay",
