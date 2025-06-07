@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import { AnimationContext } from "../Context/useContext";
@@ -31,6 +31,29 @@ const PersonalDetails = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Khagendra's | Developer & Engineer</title>
+        <meta
+          name="description"
+          content="Khagendra — a self-motivated Computer Engineer and Full Stack Developer at Smart Innovations. Learn about his education, experiences, and achievements."
+        />
+        <meta
+          name="keywords"
+          content="Khagendra, Developer, React, Full Stack, Smart Innovations, DigiSoft, ACEM, Portfolio"
+        />
+        <meta name="author" content="Khagendra Singh Jora" />
+        <meta property="og:title" content="Khagendra's Portfolio" />
+        <meta
+          property="og:description"
+          content="Personal and professional details of Khagendra, a tech-enthusiastic Full Stack Developer."
+        />
+        <meta
+          property="og:image"
+          content="https://www.khagendrajora.com.np/Assets/kj.JPG"
+        />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.khagendrajora.com.np/" />
+      </Helmet>
       <div id="personalDetail">
         <Tooltip id="my-tooltip" />
         <div className="title">Personal Detail</div>

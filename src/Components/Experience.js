@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { useInView } from "react-intersection-observer";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import { AnimationContext } from "../Context/useContext";
+import { Helmet } from "react-helmet-async";
 
 export const Experience = () => {
   const { threshold } = useContext(AnimationContext);
@@ -211,6 +212,33 @@ export const Experience = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Skills and Certificates</title>
+        <meta
+          name="description"
+          content="real-world projects built using React, Software Developer  AWS, Nextjs , Node.js, Express, MongoDb, postgreSQL, Docker and more. Showcasing web development, UI/UX, and backend skills."
+        />
+        <meta
+          name="keywords"
+          content="React projects, Full stack developer, Software Developer, AWS, Nextjs, React , MERN stack, Node.js, MongoDB, postgreSQL, Docker, Laravel, Portfolio, Web Development, UI/UX , Frontend, Backend"
+        />
+        <meta name="author" content="Khagendra Jora" />
+        <meta property="og:title" content="Web Development Projects" />
+        <meta
+          property="og:description"
+          content="Browse portfolio projects built by Khagendra Jora using modern web technologies like React, Express, node.js, next.js and Docker."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.khagendrajora.com.np/" />
+        <meta
+          property="og:image"
+          content="https://www.khagendrajora.com.np/Assets/kj.JPG"
+        />
+        <link
+          rel="canonical"
+          href="https://www.khagendrajora.com.np/Assets/kj.JPG"
+        />
+      </Helmet>
       <Tooltip id="my-tooltip" />
       <div className="Experiences">
         <div className="skills">
