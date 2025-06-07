@@ -60,18 +60,18 @@ export const Header = () => {
       <header>
         {windowSize.current > 576 && (
           <>
-            <nav style={{ position: "fixed" }}>
-              <ul>Khagendra Singh Jora</ul>
+            <nav>
+              <div>Er.Khagendra Singh Jora</div>
               <ul>
-                <li className="menu">Home</li>
+                {/* <li className="menu">Home</li> */}
                 <li className="menu" onClick={PersonlDetails}>
                   About Me
                 </li>
+                <li className="menu" onClick={Projects}>
+                  Works
+                </li>
                 <li className="menu" onClick={ContactMe}>
                   Contact
-                </li>
-                <li className="menu" onClick={Projects}>
-                  Projects
                 </li>
               </ul>
             </nav>
@@ -96,15 +96,15 @@ export const Header = () => {
               }
             >
               <ul className="nav-elements">
-                <li className="menu">Home</li>
+                {/* <li className="menu">Home</li> */}
                 <li className="menu" onClick={PersonlDetails}>
                   About Me
                 </li>
+                <li className="menu" onClick={Projects}>
+                  Works
+                </li>
                 <li className="menu" onClick={ContactMe}>
                   Contact
-                </li>
-                <li className="menu" onClick={Projects}>
-                  Projects
                 </li>
               </ul>
               <FontAwesomeIcon
@@ -125,14 +125,17 @@ export const Header = () => {
               I am a <span id="element">{elementText}</span>{" "}
             </p>
             <div style={{ marginTop: "17px" }}>
-              <Link to="https://www.linkedin.com/in/er-khagendra-singh-jora-7a8808182/">
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/in/er-khagendra-singh-jora-7a8808182/"
+              >
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
                   className="links"
                   style={{ color: "blue", marginRight: "20px" }}
                 />
               </Link>
-              <Link to="https://github.com/khagendrajora">
+              <Link target="_blank" to="https://github.com/khagendrajora">
                 <FontAwesomeIcon
                   icon={faGithub}
                   className="links"

@@ -9,11 +9,11 @@ import ContactMe from "../Components/ContactMe";
 
 export const HomePage = () => {
   return (
-    <>
+    <div>
       <PersonalDetails />
       <Experience />
       <Projects />
       <ContactMe />
-    </>
+    </div>
   );
 };

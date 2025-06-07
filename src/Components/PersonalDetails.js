@@ -61,7 +61,7 @@ const PersonalDetails = () => {
 
             <div>
               Bachelor of Computer Engineering-{" "}
-              <Link to="https://acem.edu.np/">
+              <Link target="_blank" to="https://acem.edu.np/">
                 Advanced College of Engineering and Management
               </Link>
             </div>
@@ -75,7 +75,9 @@ const PersonalDetails = () => {
             </div>
             <div>
               <b>Current Profession</b>- Junior Full Stack Developer at -{" "}
-              <Link to="https://www.sinepal.com/">Smart Innovations</Link>
+              <Link target="_blank" to="https://smartinnovation.com.np/">
+                Smart Innovations
+              </Link>
             </div>
 
             <button

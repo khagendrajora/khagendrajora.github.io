@@ -1,28 +1,28 @@
 [
     {
       "title": "Website of Bharatpur ward 12",
-      "description": "This is a website of the Bharatpur ward 12. This project was build using the tools Reactjs, tailwind, framer Motions, i18next, MySQL, Laravel. ",
+      "description": "This is a website of the Bharatpur ward 12. This project was build using the tools Reactjs, tailwind, framer Motions, i18next, MySQL, Laravel, and Docker. ",
       "image": "/Assets/MERN Stack Developers.jpeg",
       "link": "https://bharatpur12.org/#/",
       "linkLabel": "Live"
     },
     {
       "title": "Toursewa",
-      "description": "This is a Full Stack service providing application. This project was build using the tools Reactjs, tailwind, framer Motions, mongodb, nodejs, expressjs and necessary dependencies and libraries",
+      "description": "This is a Full Stack service providing application. This project was build using the tools Reactjs, tailwind, framer Motions, mongodb, nodejs, expressjs and necessary dependencies and libraries, and Docker",
       "image": "/Assets/The Full Stack Web Development.jpeg",
       "link": "http://172.232.114.238:5000/",
       "linkLabel": "Live"
     },
     {
       "title": "Website of Smart Innovation",
-      "description": "This project was build using the tools Reactjs, tailwind, framer Motions.",
+      "description": "This project was build using the tools Reactjs, tailwind, framer Motions, and Docker",
       "image": "/Assets/Developer Frontend Developer Pin.jpeg",
-      "link": "https://smartinnovation.netlify.app/",
+      "link": "https://smartinnovation.com.np/",
       "linkLabel": "Live"
     },
     {
       "title": "Website of Metabyte Infosys",
-      "description": "This is the full stack application was build using the tools Reactjs, tailwind, framer Motions, nodejs, expressjs, mongodb.",
+      "description": "This is the full stack application was build using the tools Reactjs, tailwind, framer Motions, nodejs, expressjs, mongodb, and Docker.",
       "image": "/Assets/full.jpeg",
       "link": "",
       "linkLabel": ""
@@ -37,7 +37,7 @@
     {
       "title": "Website of Banepa Ward 1",
       "description": "This  application was build using the tools Reactjs, tailwind, framer Motions, i18next",
-      "image": "/Assets/A Complete Guide to Hiring Node_js Developers in India 2024.jpeg",
+      "image": "/Assets/react.png",
       "link": "https://banepa.netlify.app/",
       "linkLabel": "Live"
     },
@@ -54,10 +54,10 @@
       "description": "This is an ecommerce application made on React by using AFI data of facestore API.",
       "image": "/Assets/react.png",
       "link": "https://willowy-granita-fffc16.netlify.app/",
-      "linkLabel": "Live Demo"
+      "linkLabel": "Live"
     },
     {
-      "title": "Corporate Company Website",
+      "title": "Website for KridaLabs",
       "description": "A website for a corporate company called KridaLabs.",
       "image": "/Assets/react.png",
       "link": "https://kridalabs.com/",

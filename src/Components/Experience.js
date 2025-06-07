@@ -148,6 +148,14 @@ export const Experience = () => {
       animation: "node",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
+    {
+      id: 4,
+      content: "Next.js",
+      img: "/Assets/nextjs.png",
+      names: "nextjs",
+      animation: "nextjs",
+      ref: useInView({ threshold: threshold, triggerOnce: false }),
+    },
   ];
 
   const fourthRow = [
@@ -164,7 +172,7 @@ export const Experience = () => {
       id: 2,
       content: "PostgreSQL",
       img: "/Assets/icons8-postgresql-96.png",
-      names: "postgreSQL",
+      names: "postgresql",
       animation: "postgresql",
       ref: useInView({ threshold: threshold, triggerOnce: false }),
     },
