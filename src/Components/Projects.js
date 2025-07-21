@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="app" key={index}>
                 <div className="innerapp">
                   <div className="icon">
-                    <img src={project.image} />
+                    <img src={project.image} alt={project.title} />
                   </div>
                   <div className="projectTitle">{project.title}</div>
                 </div>

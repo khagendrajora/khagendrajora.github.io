@@ -10,7 +10,7 @@
       "title": "Toursewa",
       "description": "This is a Full Stack service providing application. This project was build using the tools Reactjs, tailwind, framer Motions, mongodb, nodejs, expressjs and necessary dependencies and libraries, and Docker",
       "image": "/Assets/The Full Stack Web Development.jpeg",
-      "link": "https://172.232.114.238/",
+      "link": "https://toursewa.netlify.app/",
       "linkLabel": "Live"
     },
     {
@@ -18,6 +18,13 @@
       "description": "This project was build using the tools Reactjs, tailwind, framer Motions, and Docker",
       "image": "/Assets/Developer Frontend Developer Pin.jpeg",
       "link": "https://smartinnovation.com.np/",
+      "linkLabel": "Live"
+    },
+        {
+      "title": "Capital Laphing",
+      "description": "This project was build using the tools Reactjs, tailwind, framer Motions, and nodejs, mongodb",
+      "image": "/Assets/full.jpeg",
+      "link": "https://capitallaphing.netlify.app/",
       "linkLabel": "Live"
     },
     {
@@ -56,13 +63,7 @@
       "linkLabel": "Git Repo"
     },
 
-    {
-      "title": "Ecommerce Application using React",
-      "description": "This is an ecommerce application made on React by using AFI data of facestore API.",
-      "image": "/Assets/react.png",
-      "link": "https://willowy-granita-fffc16.netlify.app/",
-      "linkLabel": "Live"
-    },
+  
     {
       "title": "Online Bidding Platform based on Recommended System Using Django",
       "description": "An online application in which bidders can bid on products and watch live bidding. Includes a recommendation system based on user search behavior.",
