@@ -242,7 +242,7 @@ export const Experience = () => {
       <Tooltip id="my-tooltip" />
       <div className="Experiences">
         <div className="skills">
-          <div className="title">Skills</div>
+          <div className="title">Skill</div>
           <div className="programmingLanguages">
             {firstRow.map(({ id, content, names, animation, img, ref }) => {
               const { ref: proRef, inView } = ref;
