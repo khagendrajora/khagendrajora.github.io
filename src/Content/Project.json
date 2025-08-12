@@ -55,6 +55,14 @@
       "link": "https://kridalabs.com/",
       "linkLabel": "Live"
     },
+        {
+      "title": "Ecommerce Site",
+      "description": "A website for an ecommerce platform.",
+      "image": "/Assets/react.png",
+      "link": "https://ecommerc041.netlify.app/",
+      "linkLabel": "Live"
+    },
+     
     {
       "title": "Online Restaurant",
       "description": "This is a full stack application. Technologies used are React for frontend, Express js, Node.js for backend and MongoDb for database",

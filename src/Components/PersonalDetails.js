@@ -83,21 +83,23 @@ const PersonalDetails = () => {
             <h3>Education</h3>
 
             <div>
-              Bachelor of Computer Engineering-{" "}
+              <b>Degree:</b> Bachelor in Computer Engineering-2024 AD From&nbsp;
               <Link target="_blank" to="https://acem.edu.np/">
                 Advanced College of Engineering and Management
               </Link>
             </div>
+
             <div>
               <b>Leadership Experience</b>- Former President and Vice-Secretary
               of PACE (Project Association of Computer and Electronics){" "}
             </div>
+
             <div>
-              <b>Junoir Frontend / React</b>- Junior Frontend / React Developer
+              <b>Junior Frontend / React</b>- Junior Frontend / React Developer
               at - DigiSoft Developers
             </div>
             <div>
-              <b>Current Profession</b>- Junior Full Stack Developer at -{" "}
+              <b>Current Profession</b>- Full Stack Software Engineer at -{" "}
               <Link target="_blank" to="https://smartinnovation.com.np/">
                 Smart Innovations
               </Link>
