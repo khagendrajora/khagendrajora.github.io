@@ -4,7 +4,6 @@
 }
 
 .Left.animate {
-  display: block;
   opacity: 1;
   position: relative;
   animation-name: image;
@@ -12,17 +11,6 @@
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
-
-@keyframes image {
-  from {
-    left: -200px;
-  }
-
-  to {
-    left: 0px;
-  }
-}
-
 .Right.hidden {
   opacity: 0;
 }
@@ -46,21 +34,17 @@
   }
 }
 
-.resume.hidden {
-  opacity: 0;
-}
-
-.resume.animate {
+.resume {
   opacity: 1;
   position: relative;
   animation-name: button;
   animation-duration: 1s;
-  /* animation-delay: 0.3s; */
+  animation-delay: 0.3s;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
 
-@keyframes button {
+/* @keyframes button {
   from {
     right: -200px;
   }
@@ -68,7 +52,7 @@
   to {
     right: 0px;
   }
-}
+} */
 
 /* Experience */
 .hex.hidden {
@@ -134,7 +118,7 @@
 
 @keyframes hex {
   from {
-    top: -100px;
+    top: -50px;
   }
 
   to {
@@ -144,7 +128,7 @@
 
 @keyframes dursikshya {
   from {
-    top: -200px;
+    top: -100px;
   }
 
   to {
@@ -154,7 +138,7 @@
 
 @keyframes dockers {
   from {
-    top: -300px;
+    top: -150px;
   }
 
   to {
@@ -164,7 +148,7 @@
 
 @keyframes iit {
   from {
-    top: -400px;
+    top: -200px;
   }
 
   to {
@@ -193,7 +177,6 @@
 @keyframes cProgramming {
   from {
     left: -200px;
-    top: -100px;
   }
 
   to {
@@ -214,13 +197,11 @@
 
 @keyframes oop {
   from {
-    left: -300px;
-    top: -100px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -236,13 +217,11 @@
 
 @keyframes js {
   from {
-    left: -400px;
-    top: -100px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -258,13 +237,11 @@
 
 @keyframes ts {
   from {
-    left: -500px;
-    top: -100px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -281,12 +258,10 @@
 @keyframes html {
   from {
     left: -200px;
-    top: -210px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -302,13 +277,11 @@
 
 @keyframes css {
   from {
-    left: -300px;
-    top: -210px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -324,13 +297,11 @@
 
 @keyframes bootstrap {
   from {
-    left: -400px;
-    top: -210px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -346,13 +317,11 @@
 
 @keyframes tss {
   from {
-    left: -500px;
-    top: -210px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -368,13 +337,11 @@
 
 @keyframes react {
   from {
-    left: -210px;
-    top: -310px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -390,13 +357,11 @@
 
 @keyframes express {
   from {
-    left: -320px;
-    top: -320px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -412,13 +377,11 @@
 
 @keyframes node {
   from {
-    left: -440px;
-    top: -340px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -434,13 +397,11 @@
 
 @keyframes nextjs {
   from {
-    left: -440px;
-    top: -340px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -456,13 +417,11 @@
 
 @keyframes mongodb {
   from {
-    left: -240px;
-    top: -440px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -478,13 +437,11 @@
 
 @keyframes postgresql {
   from {
-    left: -240px;
-    top: -440px;
+    left: -200px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -501,12 +458,10 @@
 @keyframes git {
   from {
     left: -200px;
-    top: -500px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }
 
@@ -523,11 +478,9 @@
 @keyframes docker {
   from {
     left: -200px;
-    top: -600px;
   }
 
   to {
     left: 0px;
-    top: 0px;
   }
 }

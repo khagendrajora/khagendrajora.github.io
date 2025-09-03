@@ -14,17 +14,7 @@ const PersonalDetails = () => {
     window.open(file, "blank");
   };
 
-  const { ref: leftRef, inView: leftInView } = useInView({
-    threshold: threshold,
-    triggerOnce: false,
-  });
-
   const { ref: rightRef, inView: rightInView } = useInView({
-    threshold: threshold,
-    triggerOnce: false,
-  });
-
-  const { ref: buttonRef, inView: buttonInView } = useInView({
     threshold: threshold,
     triggerOnce: false,
   });
@@ -58,15 +48,21 @@ const PersonalDetails = () => {
         <Tooltip id="my-tooltip" />
         <div className="title">Personal Detail</div>
         <div className="container">
-          <div
-            className={`Left  hidden ${leftInView ? "animate" : ""}`}
-            ref={leftRef}
-          >
+          <div className={`Left  `}>
             <img
               src="Assets/kj.JPG"
               alt="khagendra"
               style={{ width: "20rem" }}
             />
+            <button
+              id="btn"
+              className={`resume `}
+              onClick={Resume}
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content="Click To View"
+            >
+              My Resume
+            </button>
           </div>
           <div
             className={`Right hidden ${rightInView ? "animate" : ""}`}
@@ -80,41 +76,48 @@ const PersonalDetails = () => {
               learning and innovation.
             </p>
 
-            <h3>Education</h3>
+            <h1>Education</h1>
 
             <div>
-              <b>Degree:</b> Bachelor in Computer Engineering-2024 AD From&nbsp;
-              <Link target="_blank" to="https://acem.edu.np/">
-                Advanced College of Engineering and Management
-              </Link>
-            </div>
+              <ul>
+                <h3>Degree</h3>
+                <li>
+                  Bachelor in Computer Engineering-2024 AD From&nbsp;
+                  <Link target="_blank" to="https://acem.edu.np/">
+                    Advanced College of Engineering and Management
+                  </Link>
+                </li>
 
-            <div>
-              <b>Leadership Experience</b>- Former President and Vice-Secretary
-              of PACE (Project Association of Computer and Electronics){" "}
-            </div>
+                <hr />
+              </ul>
 
-            <div>
-              <b>Junior Frontend / React</b>- Junior Frontend / React Developer
-              at - DigiSoft Developers
-            </div>
-            <div>
-              <b>Current Profession</b>- Full Stack Software Engineer at -{" "}
-              <Link target="_blank" to="https://smartinnovation.com.np/">
-                Smart Innovations
-              </Link>
-            </div>
+              <ul>
+                <h3>Leadership Experience</h3>{" "}
+                <li>
+                  Former President and Vice-Secretary of PACE (Project
+                  Association of Computer and Electronics){" "}
+                </li>
+                <hr />
+              </ul>
 
-            <button
-              id="btn"
-              className={`resume hidden ${buttonInView ? "animate" : ""}`}
-              ref={buttonRef}
-              onClick={Resume}
-              data-tooltip-id="my-tooltip"
-              data-tooltip-content="Click To View"
-            >
-              My Resume
-            </button>
+              <ul>
+                <h3>Junior React Developer</h3>
+                <li>
+                  Junior Frontend / React Developer at - DigiSoft Developers
+                </li>
+                <hr />
+              </ul>
+              <ul>
+                <h3>Current Profession</h3>
+                <li>
+                  Full Stack Software Engineer at -{" "}
+                  <Link target="_blank" to="https://smartinnovation.com.np/">
+                    Smart Innovations
+                  </Link>
+                </li>
+                <hr />
+              </ul>
+            </div>
           </div>
         </div>
       </div>

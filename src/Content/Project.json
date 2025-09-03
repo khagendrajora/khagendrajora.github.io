@@ -48,13 +48,7 @@
       "link": "https://banepa.netlify.app/",
       "linkLabel": "Live"
     },
-    {
-      "title": "Website for KridaLabs",
-      "description": "A website for a corporate company called KridaLabs.",
-      "image": "/Assets/react.png",
-      "link": "https://kridalabs.com/",
-      "linkLabel": "Live"
-    },
+
         {
       "title": "Ecommerce Site",
       "description": "A website for an ecommerce platform.",

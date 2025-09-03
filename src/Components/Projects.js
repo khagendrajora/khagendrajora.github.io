@@ -32,7 +32,7 @@ const Projects = () => {
         />
       </Helmet>
       <div className="projects" id="project">
-        <div className="title">Projects</div>
+        <div className="title">My Works</div>
         <br />
         <div className="works">
           {Project &&
@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="app" key={index}>
                 <div className="innerapp">
                   <div className="icon">
-                    <img src={project.image} alt={project.title} />
+                    <img src={project.image} alt="" />
                   </div>
                   <div className="projectTitle">{project.title}</div>
                 </div>

@@ -80,7 +80,9 @@ nav ul {
 
 .container .Left {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container .Left img {
