@@ -5,14 +5,14 @@ const Projects = () => {
   return (
     <>
       <Helmet>
-        <title>My Projects | Full Stack & React Developer Portfolio</title>
+        <title>Computer Engineer & a Software Developer</title>
         <meta
           name="description"
-          content="real-world projects built using React, Node.js, Express, MongoDB, Laravel, Docker and more. Showcasing web development, UI/UX, and backend skills."
+          content="real-world projects built using engineer, engineering, React, Node.js, Express,postgresql, prisma, aws , MongoDB, Docker and more. Showcasing web development, UI/UX, and backend skills."
         />
         <meta
           name="keywords"
-          content="React projects, Full stack developer, MERN stack, Node.js, MongoDB, Laravel, Portfolio, Web Development, Frontend, Backend"
+          content="React projects , computer Engineer, Full stack developer, MERN stack, Node.js, aws, MongoDB, Portfolio, Web Development, Frontend, Backend"
         />
         <meta name="author" content="Khagendra Jora" />
         <meta property="og:title" content="Web Development Projects" />

@@ -29,7 +29,7 @@ const PersonalDetails = () => {
         />
         <meta
           name="keywords"
-          content="Khagendra, Developer, React, Full Stack, Smart Innovations, DigiSoft, ACEM, Portfolio"
+          content="Khagendra, Developer, React, Full Stack, Smart Innovations, DigiSoft, ACEM, Portfolio, MERN"
         />
         <meta name="author" content="Khagendra Singh Jora" />
         <meta property="og:title" content="Khagendra's Portfolio" />

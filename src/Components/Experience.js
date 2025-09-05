@@ -216,7 +216,7 @@ export const Experience = () => {
         <title>Skills and Certificates</title>
         <meta
           name="description"
-          content="real-world projects built using React, Software Developer  AWS, Nextjs , Node.js, Express, MongoDb, postgreSQL, Docker and more. Showcasing web development, UI/UX, and backend skills."
+          content="real-world projects built using React, Software Developer , AWS, Nextjs , Node.js, Express, MongoDb, postgreSQL, Docker and more. Showcasing web development, UI/UX, and backend skills."
         />
         <meta
           name="keywords"
