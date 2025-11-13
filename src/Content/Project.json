@@ -1,4 +1,12 @@
 [
+
+    {
+      "title": "Learning Management System",
+      "description": "Launched a responsive LMS that improved course access and engagement with faster page loads. Led end-to-end development: UI/UX, React frontend, Node/Express APIs, and PostgreSQL data models.Tech: React, Tailwind CSS, Framer Motion, Node.js/Express, PostgreSQL, Docker; deployed containerized services. ",
+      "image": "/Assets/MERN Stack Developers.jpeg",
+      "link": "https://learninglms.netlify.app/",
+      "linkLabel": "Live"
+    },
     {
       "title": "Website of Bharatpur ward 12",
       "description": "This is a website of the Bharatpur ward 12. This project was build using the tools Reactjs, tailwind, framer Motions, i18next, MySQL, Laravel, and Docker. ",
