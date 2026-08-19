@@ -1,12 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import React, { useRef } from "react";
-import { useEffect, useState } from "react";
+import { faArrowRight, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 export const Header = () => {
-  const [elementText, setElementText] = useState("");
   const windowSize = useRef(window.innerWidth);
   const [showMenu, setShowMenu] = useState(false);
 
@@ -18,7 +16,6 @@ export const Header = () => {
     if (PersonlDetails) {
       window.scrollTo({
         top: PersonlDetails.offsetTop,
-        behavior: "smooth",
       });
     }
   };
@@ -28,7 +25,6 @@ export const Header = () => {
     if (contacts) {
       window.scrollTo({
         top: contacts.offsetTop,
-        behavior: "smooth",
       });
     }
   };
@@ -37,24 +33,9 @@ export const Header = () => {
     if (project) {
       window.scrollTo({
         top: project.offsetTop,
-        behavior: "smooth",
       });
     }
   };
-  useEffect(() => {
-    const strings = ["Computer Engineer", "Full Stack Developer", "Programmer"];
-    let index = 0;
-    const len = strings.length;
-    const repeat = setInterval(() => {
-      if (index < len) {
-        setElementText(strings[index]);
-        index++;
-      } else {
-        index = 0;
-      }
-    }, 1000);
-    return () => clearInterval(repeat);
-  }, []);
   return (
     <>
       <header>
@@ -117,14 +98,21 @@ export const Header = () => {
           </>
         )}
 
-        <div className="image">
-          <img src="/Assets/lap.jpg" alt="logo" />
-          <div className="info">
-            <h1>Hi I am Er.Khagendra Singh Jora</h1>
-            <p>
-              I am a <span id="element">{elementText}</span>{" "}
+        <section className="hero">
+          <div className="hero-copy">
+            <p className="hero-kicker">Computer engineer · Nepal</p>
+            <h1>Building useful software for real-world ideas.</h1>
+            <p className="hero-description">
+              I’m <strong>Khagendra Singh Jora</strong>, a Full Stack Developer
+              focused on thoughtful web experiences and reliable systems.
             </p>
-            <div style={{ marginTop: "17px" }}>
+            <div className="hero-actions">
+              <button className="hero-primary" onClick={Projects}>
+                Explore my work <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <button className="hero-secondary" onClick={ContactMe}>Let’s talk</button>
+            </div>
+            <div className="hero-socials" aria-label="Social links">
               <Link
                 target="_blank"
                 to="https://www.linkedin.com/in/er-khagendra-singh-jora-7a8808182/"
@@ -132,19 +120,25 @@ export const Header = () => {
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
                   className="links"
-                  style={{ color: "blue", marginRight: "20px" }}
+                  aria-label="LinkedIn"
                 />
               </Link>
               <Link target="_blank" to="https://github.com/khagendrajora">
                 <FontAwesomeIcon
                   icon={faGithub}
                   className="links"
-                  style={{ color: "black" }}
+                  aria-label="GitHub"
                 />
               </Link>
             </div>
           </div>
-        </div>
+          <div className="hero-visual">
+            <div className="hero-photo-frame">
+              <img src="/Assets/kj.JPG" alt="Khagendra Singh Jora" />
+            </div>
+            <div className="hero-note"><span>Currently</span><strong>Full Stack<br />Software Engineer</strong></div>
+          </div>
+        </section>
       </header>
     </>
   );

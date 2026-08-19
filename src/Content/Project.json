@@ -1,5 +1,26 @@
 [
 
+   {
+      "title": "AutoGalaxy",
+      "description": "An marketplace for buying and selling used cars. Which contains a wide range of vehicles for sale and purchase. Contain multiple  portals for different users. ",
+      "image": "/Assets/full.jpeg",
+      "link": "",
+      "linkLabel": ""
+    },
+{
+      "title": "Restaurant POS",
+      "description": "An restaurant management application that manages the restaurant's operations, including order processing, inventory management, and customer relationship management. It provides a user-friendly interface for staff to take orders, track sales, and generate reports.",
+      "image": "/Assets/full.jpeg",
+      "link": "https://resturent-pos-frontend.onrender.com",
+      "linkLabel": "Live"
+    },
+    {
+      "title": "Hello Palika Portal",
+      "description": "An appliaciton for palika for managing the citizen's complaints and suggestions. It provides a user-friendly interface for citizens to submit their complaints and suggestions, and for palika staff to manage and respond to them. Also maintains a dashboard for palika. Also handles the appointments, notifications, and other related tasks of the authorities. ",
+      "image": "/Assets/full.jpeg",
+      "link": "https://hellopalika.cliffbyte.com/",
+      "linkLabel": "Live"
+    },
     {
       "title": "Learning Management System",
       "description": "Launched a responsive LMS that improved course access and engagement with faster page loads. Led end-to-end development: UI/UX, React frontend, Node/Express APIs, and PostgreSQL data models.Tech: React, Tailwind CSS, Framer Motion, Node.js/Express, PostgreSQL, Docker; deployed containerized services. ",
@@ -34,59 +55,10 @@
       "image": "/Assets/full.jpeg",
       "link": "https://capitallaphing.netlify.app/",
       "linkLabel": "Live"
-    },
-    {
-      "title": "Website of Metabyte Infosys",
-      "description": "This is the full stack application was build using the tools Reactjs, tailwind, framer Motions, nodejs, expressjs, mongodb, and Docker.",
-      "image": "/Assets/full.jpeg",
-      "link": "",
-      "linkLabel": ""
-    },
-    {
-      "title": "Website of Aashirwad Hotel",
-      "description": "This  application was build using the tools Reactjs, tailwind, framer Motions",
-      "image": "/Assets/react.png",
-      "link": "https://hotelaashirwad.netlify.app/",
-      "linkLabel": "Live"
-    },
-    {
-      "title": "Website of Banepa Ward 1",
-      "description": "This  application was build using the tools Reactjs, tailwind, framer Motions, i18next",
-      "image": "/Assets/react.png",
-      "link": "https://banepa.netlify.app/",
-      "linkLabel": "Live"
-    },
-
-        {
-      "title": "Ecommerce Site",
-      "description": "A website for an ecommerce platform.",
-      "image": "/Assets/react.png",
-      "link": "https://ecommerc041.netlify.app/",
-      "linkLabel": "Live"
-    },
-     
-    {
-      "title": "Online Restaurant",
-      "description": "This is a full stack application. Technologies used are React for frontend, Express js, Node.js for backend and MongoDb for database",
-      "image": "/Assets/mern.jpeg",
-      "link": "https://github.com/khagendrajora/Online-Restaurant",
-      "linkLabel": "Git Repo"
-    },
+    }
+    
 
   
-    {
-      "title": "Online Bidding Platform based on Recommended System Using Django",
-      "description": "An online application in which bidders can bid on products and watch live bidding. Includes a recommendation system based on user search behavior.",
-      "image": "",
-      "link": "https://github.com/imperiumbid/web",
-      "linkLabel": "Git Repo"
-    },
-    {
-      "title": "Community connect application using ML",
-      "description": "An online platform where community people can interact on social issues and suggest solutions. ML filters bad language.",
-      "image": "",
-      "link": "https://github.com/khagendrajora/Tech_Army",
-      "linkLabel": "Git Repo"
-    }
+   
   ]
   

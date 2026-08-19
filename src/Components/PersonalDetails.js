@@ -1,23 +1,13 @@
-import { useContext } from "react";
-import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
-import { AnimationContext } from "../Context/useContext";
 
 const PersonalDetails = () => {
-  const { threshold } = useContext(AnimationContext);
-
   const Resume = () => {
     const file = "/Assets/Resume.pdf";
     window.open(file, "blank");
   };
-
-  const { ref: rightRef, inView: rightInView } = useInView({
-    threshold: threshold,
-    triggerOnce: false,
-  });
 
   return (
     <>
@@ -46,14 +36,12 @@ const PersonalDetails = () => {
       </Helmet>
       <div id="personalDetail">
         <Tooltip id="my-tooltip" />
-        <div className="title">Personal Detail</div>
+        <div className="title">About me</div>
         <div className="container">
-          <div className={`Left  `}>
-            <img
-              src="Assets/kj.JPG"
-              alt="khagendra"
-              style={{ width: "20rem" }}
-            />
+          <div className="Left profile-summary">
+            <span className="profile-label">Professional profile</span>
+            <h2>Software Engineer<br />with 2+ years of experience.</h2>
+            <p>Building practical web applications and dependable software systems from idea to delivery.</p>
             <button
               id="btn"
               className={`resume `}
@@ -64,10 +52,7 @@ const PersonalDetails = () => {
               My Resume
             </button>
           </div>
-          <div
-            className={`Right hidden ${rightInView ? "animate" : ""}`}
-            ref={rightRef}
-          >
+          <div className="Right">
             <p>
               I am a self-motivated and tech-enthusiastic professional, always
               ready to face challenges with a proactive mindset. With a strong
@@ -76,48 +61,47 @@ const PersonalDetails = () => {
               learning and innovation.
             </p>
 
-            <h1>Education</h1>
-
-            <div>
-              <ul>
-                <h3>Degree</h3>
-                <li>
-                  Bachelor in Computer Engineering-2024 AD From&nbsp;
-                  <Link target="_blank" to="https://acem.edu.np/">
-                    Advanced College of Engineering and Management
-                  </Link>
-                </li>
-
-                <hr />
-              </ul>
-
-              <ul>
-                <h3>Leadership Experience</h3>{" "}
-                <li>
-                  Former President and Vice-Secretary of PACE (Project
-                  Association of Computer and Electronics){" "}
-                </li>
-                <hr />
-              </ul>
-
-              <ul>
-                <h3>Junior React Developer</h3>
-                <li>
-                  Junior Frontend / React Developer at - DigiSoft Developers
-                </li>
-                <hr />
-              </ul>
-              <ul>
-                <h3>Current Profession</h3>
-                <li>
-                  Full Stack Software Engineer at -{" "}
-                  <Link target="_blank" to="https://smartinnovation.com.np/">
-                    Smart Innovations
-                  </Link>
-                </li>
-                <hr />
-              </ul>
-            </div>
+            <h1>Career journey</h1>
+            <section className="timeline-group">
+              <h2>Work experience</h2>
+              <div className="timeline">
+              <article className="timeline-item current">
+                <span className="timeline-date">March 2026 — Present</span>
+                <h3>Mid-Level Software Developer</h3>
+                <p>Bidhee Pvt. Ltd. · Backend focused</p>
+              </article>
+              <article className="timeline-item">
+                <span className="timeline-date">August 2024 — January 2026</span>
+                <h3>Full Stack Developer</h3>
+                <p><Link target="_blank" to="https://smartinnovation.com.np/">Smart Innovations</Link></p>
+              </article>
+              <article className="timeline-item">
+                <span className="timeline-date">December 2023 — February 2024</span>
+                <h3>Student Fellow</h3>
+                <p>Pahadi Research LLC</p>
+              </article>
+              <article className="timeline-item">
+                <span className="timeline-date">September 2023 — November 2023</span>
+                <h3>Intern</h3>
+                <p>GoldenDuck Enterprises</p>
+              </article>
+              <article className="timeline-item">
+                <span className="timeline-date">Leadership experience</span>
+                <h3>Project Association of Computer and Electronics (PACE)</h3>
+                <p>Former President and Vice-Secretary.</p>
+              </article>
+              </div>
+            </section>
+            <section className="timeline-group">
+              <h2>Education</h2>
+              <div className="timeline">
+              <article className="timeline-item">
+                <span className="timeline-date">2019 — 2024</span>
+                <h3>Bachelor in Computer Engineering</h3>
+                <p><Link target="_blank" to="https://acem.edu.np/">Advanced College of Engineering and Management</Link></p>
+              </article>
+              </div>
+            </section>
           </div>
         </div>
       </div>

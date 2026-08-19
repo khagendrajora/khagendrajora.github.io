@@ -39,23 +39,27 @@ const Projects = () => {
             Project.map((project, index) => (
               <div className="app" key={index}>
                 <div className="innerapp">
-                  <div className="icon">
-                    <img src={project.image} alt="" />
-                  </div>
+                  {project.image && (
+                    <div className="icon">
+                      <img src={project.image} alt="" />
+                    </div>
+                  )}
                   <div className="projectTitle">{project.title}</div>
                 </div>
                 <p>{project.description}</p>
-                <div className="button-container">
-                  <button className="btn">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {project.linkLabel}
-                    </a>
-                  </button>
-                </div>
+                {project.link && (
+                  <div className="button-container">
+                    <button className="btn">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {project.linkLabel || "View project"}
+                      </a>
+                    </button>
+                  </div>
+                )}
               </div>
             ))}
         </div>

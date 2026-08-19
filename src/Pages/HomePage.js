@@ -1,7 +1,6 @@
 import React from "react";
 import PersonalDetails from "../Components/PersonalDetails";
 import "../Components/Style.css";
-import "../Animation.css";
 
 import { Experience } from "../Components/Experience";
 import Projects from "../Components/Projects";
