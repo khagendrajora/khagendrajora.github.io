@@ -67,8 +67,8 @@ const PersonalDetails = () => {
               <div className="timeline">
               <article className="timeline-item current">
                 <span className="timeline-date">March 2026 — Present</span>
-                <h3>Mid-Level Software Developer</h3>
-                <p>Bidhee Pvt. Ltd. · Backend focused</p>
+                <h3>Mid-Level Software Developer-Backend</h3>
+                <p><Link target="_blank" to="https://bidhee.com/">Bidhee Pvt. Ltd.</Link></p>
               </article>
               <article className="timeline-item">
                 <span className="timeline-date">August 2024 — January 2026</span>
