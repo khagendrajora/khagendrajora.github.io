@@ -19,7 +19,7 @@ const ContactMe = () => {
     setIsButton(true);
 
     emailjs
-      .sendForm("service_0ol2zmr", "template_dga760m", form.current, {
+      .sendForm("service_mli4u2d", "template_dga760m", form.current, {
         publicKey: "XTzIryEJ7sNcW50an",
       })
       .then(
